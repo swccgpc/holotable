@@ -1,4 +1,4 @@
-version 20180928
+version 20181101
 urlpath https://github.com/swccgpc/holotable/tree/2.09.0/Images-HT
 MD5 (*../Images-HT/imp.gif) = 17e7ec1cede9f979603de547ce07fae4
 MD5 (*../Images-HT/reb.gif) = 7fa7a3219a7227dfa2b3d4ee4eb7ed8a
@@ -5660,7 +5660,7 @@ MD5 (*../Images-HT/starwars/Virtual3-Light/large/majorbrenderlin.gif) = 6e0f2660
 MD5 (*../Images-HT/starwars/Virtual3-Light/large/moncalamariadmiral.gif) = e07f8574c5f166969b11323c49484471
 MD5 (*../Images-HT/starwars/Virtual3-Light/large/padmenaberrie.gif) = 4b5b78259aae9093d67965f2ff80304a
 MD5 (*../Images-HT/starwars/Virtual3-Light/large/padmenaberrieai.gif) = abd6b602f935aee0eefb26445fb58093
-MD5 (*../Images-HT/starwars/Virtual3-Light/large/planetarydefenses.gif) = 9c177c09eb2d0eba0badeaea2cbff818
+MD5 (*../Images-HT/starwars/Virtual3-Light/large/planetarydefenses.gif) = 94ad8acfbcce02a02e63697cf2c61575
 MD5 (*../Images-HT/starwars/Virtual3-Light/large/r2d2c3po.gif) = d8c23311d816245062df888db92fdbec
 MD5 (*../Images-HT/starwars/Virtual3-Light/large/rebelleadership.gif) = 27e8640608a52c3adfe5ace75e1f57a7
 MD5 (*../Images-HT/starwars/Virtual3-Light/large/stolendatatapes.gif) = 6f0b532599ba1e82af5af7b8201926b6
@@ -6089,7 +6089,7 @@ MD5 (*../Images-HT/starwars/Virtual9-Dark/large/lanadobreedsacrifice.gif) = e526
 MD5 (*../Images-HT/starwars/Virtual9-Dark/large/lieutenantvenka.gif) = 19cb46e198e601820f7198e727946911
 MD5 (*../Images-HT/starwars/Virtual9-Dark/large/mustafarvaderscastle.gif) = 51e8c4a5e2e5ccfa9e80097e85d80bb9
 MD5 (*../Images-HT/starwars/Virtual9-Dark/large/prepareforasurfaceattack.gif) = da9361e42d889ccbbe28386a0454189b
-MD5 (*../Images-HT/starwars/Virtual9-Dark/large/shadowsoftheempire.gif) = c6c228d249f56df429cfc832cc096cbd
+MD5 (*../Images-HT/starwars/Virtual9-Dark/large/shadowsoftheempire.gif) = 93ea5c9cd65513b8e3438c4fb844f3ad
 MD5 (*../Images-HT/starwars/Virtual9-Dark/large/supremeleadersnoke.gif) = 41dd299ec804be4de6096409d2089a03
 MD5 (*../Images-HT/starwars/Virtual9-Dark/large/theywillbenomatchforyou.gif) = c3c8b2d74a378cd3630e0f48514555a6
 MD5 (*../Images-HT/starwars/Virtual9-Dark/large/vanee.gif) = 800b33acdeaae970e192232129894af3
