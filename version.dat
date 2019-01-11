@@ -1,10 +1,10 @@
 0.9.9
-Light CDF 20181101 swccgpc/holotable/master/lightside.cdf.bz2
-SHA256:253AA974A561976276083E7F68C4D1E3AE204DD3288C1F4AF2BFC0EB8F65D3BF
-Dark CDF 20181101 swccgpc/holotable/master/darkside.cdf.bz2
-SHA256:E0AD19EBC3A89351D10B667B594BD535D7E57CC68E1468C4C73B65CB878B3EE4
+Light CDF 20190111 swccgpc/holotable/master/lightside.cdf.bz2
+SHA256:9df640417670ba47135a52f23296cd4d0cf6b76d5244b1b16d2598df133bf8c7
+Dark CDF 20190111 swccgpc/holotable/master/darkside.cdf.bz2
+SHA256:3266aa3fd2c2a15844f401f228d258ff004801933eb2d1960a2ffe7dfcfebfd9
 Holotable Windows exe 0.9.9 download/downloads/holotable-0.9.9_update.exe SHA256:f04bc38b055f762ab2ca1ecf6e09744c2dffe31a1295fe00475f72c1aac2767d
 Holotable Linux unpack 0.9.9 download/downloads/holotable-0.9.9_update_linux.tar.bz2 SHA256:415bea412fdbe426a9877ef7d3ad3dee2348adf0e10579dace35e80b788c7bdf
-images 20181101 swccgpc/holotable/master/Images-HT/listmd5.bz2
-SHA256:2043F0FD7127E58975219B4FDCF5723909A959639A4C6EC96189C3411E80547E
+images 20190111 swccgpc/holotable/master/Images-HT/listmd5.bz2
+SHA256:86f924ddb9cec4ecc3bfa783dd853ab1b374ae29dce62cdf3f89d0872c83e32f
 
