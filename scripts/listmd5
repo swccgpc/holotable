@@ -1,4 +1,4 @@
-version 20190111
+version 20190116
 urlpath https://github.com/swccgpc/holotable/tree/2.09.0/Images-HT
 MD5 (*../Images-HT/imp.gif) = 17e7ec1cede9f979603de547ce07fae4
 MD5 (*../Images-HT/reb.gif) = 7fa7a3219a7227dfa2b3d4ee4eb7ed8a
@@ -5634,7 +5634,7 @@ MD5 (*../Images-HT/starwars/Virtual10-Light/large/itstrueallofit.gif) = 4e0cd4cc
 MD5 (*../Images-HT/starwars/Virtual10-Light/large/jedibusiness.gif) = 60d25e4782bb810b22eedfa8bc71f9f3
 MD5 (*../Images-HT/starwars/Virtual10-Light/large/jedimindtrick.gif) = 71a57812b2cc76b3cca34ee92b32424d
 MD5 (*../Images-HT/starwars/Virtual10-Light/large/kitfisto.gif) = 2aa50eb8ae5c1a7578c71582ca16e88e
-MD5 (*../Images-HT/starwars/Virtual10-Light/large/lukeskywalkerthelastjedi.gif) = a2c3b737e552bb113b1c308d52115750
+MD5 (*../Images-HT/starwars/Virtual10-Light/large/lukeskywalkerthelastjedi.gif) = b5e858bb907261f613b5706908e6e7b2
 MD5 (*../Images-HT/starwars/Virtual10-Light/large/paploo.gif) = b7f42ce2c2ea7fe1cf139ba85605521e
 MD5 (*../Images-HT/starwars/Virtual10-Light/large/partofthetribe.gif) = 756f510a63807a3f13bb79ceb27fe6cd
 MD5 (*../Images-HT/starwars/Virtual10-Light/large/plokoon.gif) = 5b77252625f41f65c078fa5ab9ef95b8
@@ -5658,7 +5658,7 @@ MD5 (*../Images-HT/starwars/Virtual10-Light/t_itstrueallofit.gif) = ece0bf5136b0
 MD5 (*../Images-HT/starwars/Virtual10-Light/t_jedibusiness.gif) = cc2091d15e6c96f0100fe87e40dd7783
 MD5 (*../Images-HT/starwars/Virtual10-Light/t_jedimindtrick.gif) = b91525fab7352ff41efadfa010874cad
 MD5 (*../Images-HT/starwars/Virtual10-Light/t_kitfisto.gif) = be688d6aec3e2b07e74636c5ae7ad68e
-MD5 (*../Images-HT/starwars/Virtual10-Light/t_lukeskywalkerthelastjedi.gif) = 03ce77305cd9b9b9b428961ecb1158af
+MD5 (*../Images-HT/starwars/Virtual10-Light/t_lukeskywalkerthelastjedi.gif) = 166eb8d180bc9a5a2308249832dcde71
 MD5 (*../Images-HT/starwars/Virtual10-Light/t_paploo.gif) = 1c39901595fbdda4e11c991f07e4af41
 MD5 (*../Images-HT/starwars/Virtual10-Light/t_partofthetribe.gif) = 9a251f785b4b5c733cbe1ccfb6ba28b2
 MD5 (*../Images-HT/starwars/Virtual10-Light/t_plokoon.gif) = 6a42fd2dcd32f9e9cc233b959f2bc3d6
