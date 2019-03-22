@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+hashfile=./listmd5
+
+rm -f $hashfile $hashfile.bz2
+
+date "+version %Y%m%d" > $hashfile
+
+#echo "urlpath download/downloads/cards" >> $hashfile
+echo "urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT" >> $hashfile
+
+ls *.gif | xargs -n 1 md5sum | awk '{print "MD5 ("$2") = "$1}' | sed 's/\*//' >> $hashfile
+find starwars -name "*.gif" | xargs -n 1 md5sum | awk '{print "MD5 ("$2") = "$1}' | sed 's/\*//' >> $hashfile
+
+bzip2 -k $hashfile
+
+echo "Remember to update the version number and file hash in version.dat"
+
+sha256sum $hashfile.bz2
