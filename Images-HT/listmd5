@@ -1,4 +1,4 @@
-version 20190322
+version 20190512
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (imp.gif) = 17e7ec1cede9f979603de547ce07fae4
 MD5 (reb.gif) = 7fa7a3219a7227dfa2b3d4ee4eb7ed8a
@@ -5545,7 +5545,7 @@ MD5 (starwars/Virtual1-Dark/t_wooof.gif) = 68b1f77385f5ac2c36086e72b29b5ef6
 MD5 (starwars/Virtual1-Light/large/anewsecretbase.gif) = 1712d677ae7cb0807b9813f3c671b054
 MD5 (starwars/Virtual1-Light/large/anoat.gif) = 1541020f24823a17b3a46fffc2601f96
 MD5 (starwars/Virtual1-Light/large/ascensionguns.gif) = 42eaed69ada4958fef89b810801e72e9
-MD5 (starwars/Virtual1-Light/large/dashinrogue12.gif) = 4d8b3180b21d414b47ce105505166e32
+MD5 (starwars/Virtual1-Light/large/dashinrogue12.gif) = 768ed3fb7fa63a8ebe692a125e6afd59
 MD5 (starwars/Virtual1-Light/large/escapepod.gif) = 2f4869a7c9750a7f4bfead86e3509694
 MD5 (starwars/Virtual1-Light/large/greenleaderingreensquadron1.gif) = ffb21b17d3698b9a02af063f255632f3
 MD5 (starwars/Virtual1-Light/large/hearmebabyholdtogether.gif) = 2c2e8c1ce737aa1dab258dc75569ed3a
@@ -5833,7 +5833,7 @@ MD5 (starwars/Virtual4-Light/large/endorbunker.gif) = e20687865737b93c21b86fc8e4
 MD5 (starwars/Virtual4-Light/large/escapepodweredoomed.gif) = 018e079dab27660bad78a2d7ecaaf118
 MD5 (starwars/Virtual4-Light/large/finn.gif) = 5a0f9a92edeb4fb22e4fedeb6dabb598
 MD5 (starwars/Virtual4-Light/large/graveyardofgiants.gif) = e72c55e3f816602d27c1eb81668aaabd
-MD5 (starwars/Virtual4-Light/large/imgettingkindofgoodatthis.gif) = d8591083d2fda79b8641a04483c9d80c
+MD5 (starwars/Virtual4-Light/large/imgettingprettygoodatthis.gif) = 53a44ae52edfe7b7d3b432eed30378d0
 MD5 (starwars/Virtual4-Light/large/jakku.gif) = f00faafe4143260f1bb00539863da059
 MD5 (starwars/Virtual4-Light/large/jakkuniimaoutpostshipyard.gif) = feb49040b571db2a67e52edcd6b4bfeb
 MD5 (starwars/Virtual4-Light/large/jakkuravagercrashsite.gif) = 16ef07fddd413e61217d50a718694574
