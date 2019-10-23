@@ -1,4 +1,4 @@
-version 20191020
+version 20191022
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (imp.gif) = 17e7ec1cede9f979603de547ce07fae4
 MD5 (reb.gif) = 7fa7a3219a7227dfa2b3d4ee4eb7ed8a
@@ -5939,7 +5939,7 @@ MD5 (starwars/Virtual4-Light/large/endorbunker.gif) = e20687865737b93c21b86fc8e4
 MD5 (starwars/Virtual4-Light/large/escapepodweredoomed.gif) = 018e079dab27660bad78a2d7ecaaf118
 MD5 (starwars/Virtual4-Light/large/finn.gif) = 5a0f9a92edeb4fb22e4fedeb6dabb598
 MD5 (starwars/Virtual4-Light/large/graveyardofgiants.gif) = e72c55e3f816602d27c1eb81668aaabd
-MD5 (starwars/Virtual4-Light/large/imgettingkindofgoodatthis.gif) = d8591083d2fda79b8641a04483c9d80c
+MD5 (starwars/Virtual4-Light/large/imgettingprettygoodatthis.gif) = 53a44ae52edfe7b7d3b432eed30378d0
 MD5 (starwars/Virtual4-Light/large/jakku.gif) = f00faafe4143260f1bb00539863da059
 MD5 (starwars/Virtual4-Light/large/jakkuniimaoutpostshipyard.gif) = feb49040b571db2a67e52edcd6b4bfeb
 MD5 (starwars/Virtual4-Light/large/jakkuravagercrashsite.gif) = 16ef07fddd413e61217d50a718694574
@@ -5950,7 +5950,7 @@ MD5 (starwars/Virtual4-Light/large/keepyoureyesopen.gif) = 53ea281760ed105fc5293
 MD5 (starwars/Virtual4-Light/large/lorsantekka.gif) = 929635f77ff033090866e1a5dcbd9aaa
 MD5 (starwars/Virtual4-Light/large/masanya.gif) = c7c0a075c8636b42409ead8b61883807
 MD5 (starwars/Virtual4-Light/large/mindfulofthefuture.gif) = 399db2e75e29f363658da715b818da50
-MD5 (starwars/Virtual4-Light/large/oldallies.gif) = f4267e82a61063848b0afdee4184ada2
+MD5 (starwars/Virtual4-Light/large/oldallies.gif) = 31d5ba1e3771a6aa48561ea0230d376d
 MD5 (starwars/Virtual4-Light/large/poedameron.gif) = eca5bd2f352e4cf9f64f210db8f8a2a7
 MD5 (starwars/Virtual4-Light/large/rey.gif) = bbaf0d0806a807d78853bebb646c4c90
 MD5 (starwars/Virtual4-Light/large/senatormonmothma.gif) = b106ec8e75323192563cedc4c703643c
@@ -5977,7 +5977,7 @@ MD5 (starwars/Virtual4-Light/t_endorbunker.gif) = 8bb40f20f017d5e7077e26decdd1d3
 MD5 (starwars/Virtual4-Light/t_escapepodweredoomed.gif) = 065e1496c6ce3d21671e432c8ab4a420
 MD5 (starwars/Virtual4-Light/t_finn.gif) = c0dc66a35245af77c99cbc53dab0c12f
 MD5 (starwars/Virtual4-Light/t_graveyardofgiants.gif) = 23943e183e02476c1048778c93d370af
-MD5 (starwars/Virtual4-Light/t_imgettingkindofgoodatthis.gif) = e9b1b2c39c500fc441d56046e22a2480
+MD5 (starwars/Virtual4-Light/t_imgettingprettygoodatthis.gif) = c9b33d4a1a7224b9c84334ffb5c29149
 MD5 (starwars/Virtual4-Light/t_jakku.gif) = 862558a9fc78b51fe42b591dce93f0be
 MD5 (starwars/Virtual4-Light/t_jakkuniimaoutpostshipyard.gif) = 21611ae96a118b083d3b23eddafd6a1e
 MD5 (starwars/Virtual4-Light/t_jakkuravagercrashsite.gif) = 0f0a12fc9273c9caed8018536241e3d7
@@ -5988,7 +5988,7 @@ MD5 (starwars/Virtual4-Light/t_keepyoureyesopen.gif) = 563df01e951241ed2e64c48e3
 MD5 (starwars/Virtual4-Light/t_lorsantekka.gif) = 46f0a1c822da89dd2435850172ce9d95
 MD5 (starwars/Virtual4-Light/t_masanya.gif) = f90aed373f9bfbadf4c0110f699b8855
 MD5 (starwars/Virtual4-Light/t_mindfulofthefuture.gif) = 13b03eb10c4b8172964e8df5434ebc1f
-MD5 (starwars/Virtual4-Light/t_oldallies.gif) = 3b98304e616bc311dca9c8b33cc85d1a
+MD5 (starwars/Virtual4-Light/t_oldallies.gif) = d1b72a0f45078658910503cf2208b753
 MD5 (starwars/Virtual4-Light/t_poedameron.gif) = 9392daecb888bf5b61a3375707d24cb9
 MD5 (starwars/Virtual4-Light/t_rey.gif) = 8d9ea582b554526e88acbe722b0ac754
 MD5 (starwars/Virtual4-Light/t_senatormonmothma.gif) = 982f19eb5a0afc2c23f3654815e5960d
