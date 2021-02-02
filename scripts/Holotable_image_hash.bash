@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-hashfile=./listmd5
+hashfile=./Images-HT/listmd5
 
 rm -f $hashfile $hashfile.bz2
 
@@ -8,7 +8,7 @@ date "+version %Y%m%d" > $hashfile
 #echo "urlpath download/downloads/cards" >> $hashfile
 echo "urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT" >> $hashfile
 
-ls *.gif | xargs -n 1 md5sum | awk '{print "MD5 ("$2") = "$1}' >> $hashfile
+(cd ./Images-HT && ls *.gif | xargs -n 1 md5sum) | awk '{print "MD5 ("$2") = "$1}' >> $hashfile
 find Images-HT/starwars -name "*.gif" | xargs -n 1 md5sum | awk '{print "MD5 ("$2") = "$1}' >> $hashfile
 
 bzip2 -k $hashfile
