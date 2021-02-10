@@ -1,6 +1,6 @@
 ---
 
-name: Update listmd5
+name: Update listmd5 and create release zip
 
 on:
   push:
@@ -19,11 +19,12 @@ jobs:
       run: |
         bash make_listmd5.sh
         python3 make_version_dat.py
+        bash make_release_zip.sh
     - name: Commit files
       run: |
         git config --local user.email "devon+github-actions[bot]@hubner.org"
         git config --local user.name "github-actions[bot]"
-        git commit -m "updated listmd5" -a
+        git commit -m "updated listmd5 and release zip" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
