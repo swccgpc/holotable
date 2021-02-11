@@ -172,9 +172,17 @@ MD5 (starwars/DeathStarII-Dark/t_bringhimbeforeme.gif) = 89c594abe855e3d5a44e661
 
 ## CDF files
 
+### File Editors
+
 * For the best success, edit the CDF files using `NotePad++` on Windows with the document encoding set to `windows-1252`:
 
 ![](notepadpp_darkside_cdf_encoding.png)
+
+
+* For a cross-platform editor, use `Sublime Text`. Sublime Text includes support for `windows-1252` encoding.
+
+![](sublime_windows1252_support.png)
+
 
 ### Bullets (&bull;)
 
