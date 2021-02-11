@@ -169,3 +169,34 @@ MD5 (starwars/DeathStarII-Dark/t_bringhimbeforeme.gif) = 89c594abe855e3d5a44e661
 
 
 
+
+## CDF files
+
+### Bullets (•)
+
+* Cards denote the number that are permitted to be used in a game using a bullet point (•).
+* The _"bullet"_ in the CDF file is **NOT** a standard bullet _(mac option+8)_.
+* The bullets appear differently appearing on the text editor.
+
+![](cdf_bullets.png)
+
+* On a Mac, with SublimeText or bbedit, the correct bullet character looks like a backwards j with two dots over it:
+
+![](bullet_character.png)
+
+| correct | incorrect |
+|---------|-----------|
+| `ï`     | `�`       |
+|         | `•`       |
+
+
+
+
+
+
+
+
+
+
+
+
