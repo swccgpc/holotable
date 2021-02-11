@@ -232,7 +232,7 @@ Set: Death Star II
 Icons: Death Star II
 
 Text: Each pilot deploys -1 (or -2 if with an admiral) aboard a capital starship. Each capital starship with a pilot character aboard is immune to attrition < 4 (or adds 2 to immunity). During each of your control phases, opponent loses 1 Force for each battleground site your general controls that is related to a system you occupy.
-``
+```
 
 > ⚠️ watch out for those bullet characters! Read more about document encoding requirements below ⚠️
 
