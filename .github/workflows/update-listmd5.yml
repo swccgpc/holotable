@@ -6,6 +6,11 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'Images-HT/starwars/**'
+      - 'Images-HT/*.gif'
+      - 'darkside.cdf'
+      - 'lightside.cdf'
 
 jobs:
   build:
@@ -18,6 +23,7 @@ jobs:
     - name: Create local changes
       run: |
         bash make_listmd5.sh
+        python3 fix_bullets.py
         python3 make_version_dat.py
         bash make_release_zip.sh
     - name: Commit files

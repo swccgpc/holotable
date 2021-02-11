@@ -6,6 +6,8 @@ on:
   push: 
     branches: 
       - master
+    paths:
+      - 'Images-HT/starwars/**'
 
 
 jobs:

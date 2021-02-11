@@ -36,6 +36,24 @@ convert -quality 72 -resize 67x87 large/FILENAME.gif t_FILENAME.gif
 * `www.holotable.com/version.dat` requires that `listmd5.bz2` can be downloaded from:<br />`https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT/listmd5.bz2`
 
 
+
+
+
+
+## Downloading images from GitHub using `holotable`
+
+* The `listmd5` file contains an index of images in the GitHub `holotable` repo.
+* `holotable` downloads the `listmd5` file from GitHub to update its local image cache.
+* `github.com` is an `SSL` encrypted website, meaning that the `holotable` client must support `https` encrypted URLs.
+* To support download `listmd5` and images from GitHub, `holotable` version 0.9.10 must be installed.
+* `holotable` 0.9.10 requires at least Windows 7 and will not run correctly on Windows XP.
+
+
+
+
+
+
+
 ## `version.dat`
 
 * Served from the Holotable server: <br />`curl http://www.holotable.com/version.dat`
@@ -169,8 +187,58 @@ MD5 (starwars/DeathStarII-Dark/t_bringhimbeforeme.gif) = 89c594abe855e3d5a44e661
 
 
 
+## `light.cdf` and `dark.cdf` CDF files
 
-## CDF files
+
+### format
+
+| line      | description      |
+| --------- | ---------------- |
+| line 1    | version YYYYmmdd |
+| line 2    | image file to use for back side of the card |
+| lin 4-nth | card type container name, enclosed in square brackets.|
+| lin 6-nth | card "path to the gif image file, without extension" "card details" |
+
+```
+version 20200513
+back reb.gif
+
+[Admiral's Order]
+
+card "/starwars/DeathStarII-Light/t_capitalsupport" "•Capital Support (6)\nLight Admiral's Order [R]\nSet: Death Star II\n\nText: Each pilot deploys -1 (or -2 if with an admiral) aboard a capital starship. Each capital starship with a pilot character aboard is immune to attrition < 4 (or adds 2 to immunity). During each of your control phases, opponent loses 1 Force for each battleground site your general controls that is related to a system you occupy."
+```
+
+### Card Details
+
+* Each **detail** is seperated by a newline character (`\n`).
+
+| line       | description      |
+| ---------- | ---------------- |
+| line 1     | `Card-Title (destiny)` |
+| line 2     | `Side Card-Type [Rarity]` |
+| line 3-nth | `Set: set-name`<br />`Power`: int<br />`Ability`: int str<br />`Deploy`: int<br />`Forfeit`: int<br />`Icons`: str<br />`Lore`: txt|
+| line 4    | `blank?` |
+| line 5    | `Text: card-details` |
+
+
+`•Capital Support (6)\nLight Admiral's Order [R]\nSet: Death Star II\n\nText: Each pilot deploys -1 (or -2 if with an admiral) aboard a capital starship. Each capital starship with a pilot character aboard is immune to attrition < 4 (or adds 2 to immunity). During each of your control phases, opponent loses 1 Force for each battleground site your general controls that is related to a system you occupy.`
+
+_expanding the newlines:_
+
+```
+•Capital Support (6)
+Light Admiral's Order [R]
+Set: Death Star II
+Icons: Death Star II
+
+Text: Each pilot deploys -1 (or -2 if with an admiral) aboard a capital starship. Each capital starship with a pilot character aboard is immune to attrition < 4 (or adds 2 to immunity). During each of your control phases, opponent loses 1 Force for each battleground site your general controls that is related to a system you occupy.
+``
+
+> ⚠️ watch out for those bullet characters! Read more about document encoding requirements below ⚠️
+
+
+
+
 
 ### File Editors
 
