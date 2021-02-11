@@ -172,25 +172,43 @@ MD5 (starwars/DeathStarII-Dark/t_bringhimbeforeme.gif) = 89c594abe855e3d5a44e661
 
 ## CDF files
 
-### Bullets (•)
+* For the best success, edit the CDF files using `NotePad++` on Windows with the document encoding set to `windows-1252`:
 
-* Cards denote the number that are permitted to be used in a game using a bullet point (•).
-* The _"bullet"_ in the CDF file is **NOT** a standard bullet _(mac option+8)_.
-* The bullets appear differently appearing on the text editor.
+![](notepadpp_darkside_cdf_encoding.png)
+
+### Bullets (&bull;)
+
+* Cards denote the number that are permitted to be used in a game using a bullet point (&bull;).
+* The _"bullet"_ in the CDF file is **NOT** a symbolic bullet _(&bull;)_.
+* It is important to remember that `Holotable` is a Windows application.
+* `Holotable`, being a Windows application, uses the **Extended ASCII** code `149` to generate the bullet character.
+
+| encoding | value        |
+| -------- | ------------ |
+| DEC      | `149`        |
+| OCT      | `0o225`      |
+| HEX      | `0x95`       |
+| BINARY   | `0b10010101` |
+| Symbol   | •            |
+| Keys     | ALT + 149    |
+| Html     | `&bull;`     |
+| Html     | `&#149;`     |
+
+* The problem with **Extended ASCII** is that there is no set standard, so ASCII characters between 128 to 255 may appear _very_ different when viewed in another encoding. Only `windows-1252` encoding will display the characters correctly.
+
+![](notepadpp_darkside_cdf_encoding.png)
+
+* When using `vim`, the correct bullet character will appear as Hex character code `'\x95'`:
 
 ![](cdf_bullets.png)
 
-* On a Mac, with SublimeText or bbedit, the correct bullet character looks like a backwards j with two dots over it:
+* Without proper character encoding, the correct bullet character may looks like a backwards j with two dots over it:
 
 ![](bullet_character.png)
 
-| correct | incorrect |
-|---------|-----------|
-| `ï`     | `�`       |
-|         | `•`       |
+* Whatever the character looks like, unless using `windows-1252` encoding on the file, copying the character and attempting to paste it will not work correctly.
 
-
-
+![](git_diff_darkside_bullets.png)
 
 
 
