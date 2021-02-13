@@ -1,6 +1,6 @@
 ---
 
-name: Deploy Holotable
+name: Deploy Cards
 
 on: 
   push: 
