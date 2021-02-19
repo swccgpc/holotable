@@ -16,6 +16,25 @@ jobs:
 
     steps:
       - uses: actions/checkout@main
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+     - name: Create local changes
+       run: |
+         python3 make_gif_from_pngs.py
+
+     - name: Commit files
+       run: |
+         git config --local user.email "devon+github-actions[bot]@hubner.org"
+         git config --local user.name "github-actions[bot]"
+         git commit -m "Making MISSING gifs from hires pngs" -a
+
+     - name: Push changes
+       uses: ad-m/github-push-action@master
+       with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         branch: ${{ github.ref }}
 
       - name: sync to s3
         run: aws s3 sync ./Images-HT/starwars/ s3://res.starwarsccg.org/cards/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
