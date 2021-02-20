@@ -8,6 +8,12 @@ After installing Holotable on Windows or Linux, use the Card Data Files _(CDF)_ 
 ## Card Images
 
 * Images are in the `Images-HT/starwars/` subdirectory.
+  * Subdirectories within `starwars` contain sets, 1 for each side of the force. For example:
+    - `EnhancedPremiere-Dark`
+    - `EnhancedPremiere-Light`
+  * Within the set directories, there are _very small_ **gif** images, each with a filename prefix of `t_`.<br />For example: `t_hanwithheavyblasterpistol.gif`
+  * Within the set directories, the `large/` directory contains _large_ **gif** images.
+  * Within the set directories, the `hires/` directory contains _high resolution_ **png** images. The holotable app has no knowledge of the png images within the `hires/` directory.
 * Card images are used by: **Holotable**, **GEMP**, and **SCOMP**.
 * Card images are served from `res.starwarsccg.org/cards`.
 * Card images are automatically uploaded to `res.starwarsccg.org/cards` when merging to the `main` branch.
@@ -18,12 +24,23 @@ Images used by **Holotable** are small and large. There are two sizes of large i
 
 * **Small Images**: 67x87 RGB 72dpi gif
 * **_Old_ Large Images**: 350x490 RGB 72dpi gif
-* **current Large Images**: 745x1039 RGB 72dpi gif
+* **current Large Images**: 745x1039 RGB 120dpi gif
+* **High Resolution Images**: 703×980 RGB 120dpi png
+
+### Automatic Image Creation
+
+* All `t_` small gif images, and `large/` gif images, will be generated automatically from High Resolution images uploaded to the `hires/` subdirectory.
 
 ### Creating t_gif files using `ImageMagick`
 
 ```bash
 convert -quality 72 -resize 67x87 large/FILENAME.gif t_FILENAME.gif
+```
+
+### Creating large gif files using `ImageMagick`
+
+```bash
+convert -quality 120 -resize 745x1039 hires/FILENAME.gif hires/FILENAME.png
 ```
 
 
