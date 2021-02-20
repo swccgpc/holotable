@@ -1,4 +1,4 @@
-version 20210219
+version 20210220
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (reb.gif) = 7fa7a3219a7227dfa2b3d4ee4eb7ed8a
 MD5 (imp.gif) = 17e7ec1cede9f979603de547ce07fae4
@@ -6059,6 +6059,20 @@ MD5 (starwars/VirtualPremium-Dark/t_firepower.gif) = dfdb699e50c997408ac0f83b365
 MD5 (starwars/VirtualPremium-Dark/t_voteofnoconfidence.gif) = cb0c8b2284474527b938ea9156ecb56c
 MD5 (starwars/VirtualPremium-Dark/t_fanfaretatooine.gif) = 36f7c2a7926a77302221d378591d5789
 MD5 (starwars/VirtualPremium-Dark/t_captainkhurgee.gif) = cb601fffae1890130e8aa17729b6c215
+MD5 (starwars/VirtualAlternateImage-Dark/t_slaveisymboloffear_ai.gif) = eb5138368ebfdf1c55f140b619ba94c4
+MD5 (starwars/VirtualAlternateImage-Dark/large/jedhajedhacity_ai.gif) = bb3394d05c733a3693f6f0e1255da424
+MD5 (starwars/VirtualAlternateImage-Dark/large/droideka_ai.gif) = c8f14e1306244957f1ddaa488016ad85
+MD5 (starwars/VirtualAlternateImage-Dark/large/ds615_ai.gif) = 57dc084b90d5f20e78dabc214e06fa99
+MD5 (starwars/VirtualAlternateImage-Dark/large/agentkallus_ai.gif) = b289d4dfd869404661580ff0679be662
+MD5 (starwars/VirtualAlternateImage-Dark/large/slaveisymboloffear_ai.gif) = fdf50cca6d033621e366faf73fc58039
+MD5 (starwars/VirtualAlternateImage-Dark/large/jangofett_ai.gif) = 2c06d0d405bf8280934e8abc3d9f522d
+MD5 (starwars/VirtualAlternateImage-Dark/large/jakku_ai.gif) = cdba6bb56bf7144b035a059501864ce1
+MD5 (starwars/VirtualAlternateImage-Dark/t_jangofett_ai.gif) = 8476ea6b1ab09d1fd32b736652072a45
+MD5 (starwars/VirtualAlternateImage-Dark/t_droideka_ai.gif) = a5251aeb559475022fcce5fbac7ff48e
+MD5 (starwars/VirtualAlternateImage-Dark/t_jakku_ai.gif) = e0113e05969b9134cc54339e62dcb560
+MD5 (starwars/VirtualAlternateImage-Dark/t_ds615_ai.gif) = 0c99755855d97416677907de08080f0f
+MD5 (starwars/VirtualAlternateImage-Dark/t_agentkallus_ai.gif) = 8496290260cf2cdd2ad92dcf879b07db
+MD5 (starwars/VirtualAlternateImage-Dark/t_jedhajedhacity_ai.gif) = 80d872512a8117295be994fc301e3235
 MD5 (starwars/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/t_walkergarrison.gif) = 1b76972da96670731683f0fd6133f167
 MD5 (starwars/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/t_imperialwalker.gif) = e718a61caeb911bbe5058c8c133bdc12
 MD5 (starwars/EmpireStrikesBackIntroductoryTwoPlayerGame-Dark/t_veers.gif) = 8de3fe8ad7f14b00b27752b7d09761a2
