@@ -57,19 +57,22 @@ for png in pngs.split("\n"):
       print("           "+dewit)
       os.popen(dewit)
 
-    if (os.path.isfile(setname+"/"+t_gif_filename)):
-      print("       *** t_gif exists")
-    else:
-      print("       *** Generating t_gif")
-      dewit="convert -quality 72 -resize 67x87 "+setname+"/large/"+gif_filename+" "+setname+"/"+t_gif_filename
-      print("           "+dewit)
-      if (not os.path.isfile(setname+"/large/"+gif_filename)):
-        ##
-        ## The large file may not be available before the next convert command is run.
-        ## Give a 2 second sleep to give the filesystem time to catch up.
-        ##
-        time.sleep(2)
-      os.popen(dewit)
+    ##
+    ## Use the make_t_gifs.py script instead to generate t_gif files.
+    ##
+    #if (os.path.isfile(setname+"/"+t_gif_filename)):
+    #  print("       *** t_gif exists")
+    #else:
+    #  print("       *** Generating t_gif")
+    #  dewit="convert -quality 72 -resize 67x87 "+setname+"/large/"+gif_filename+" "+setname+"/"+t_gif_filename
+    #  print("           "+dewit)
+    #  if (not os.path.isfile(setname+"/large/"+gif_filename)):
+    #    ##
+    #    ## The large file may not be available before the next convert command is run.
+    #    ## Give a 2 second sleep to give the filesystem time to catch up.
+    #    ##
+    #    time.sleep(2)
+    #  os.popen(dewit)
 
 
 print("\ndone.\n")

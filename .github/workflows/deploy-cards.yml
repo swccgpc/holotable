@@ -23,6 +23,7 @@ jobs:
       - name: Create local changes
         run: |
           python3 make_gif_from_pngs.py
+          python3 make_t_gifs.py
 
       - name: Commit files
         run: |
