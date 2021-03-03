@@ -29,6 +29,7 @@ jobs:
         run: |
           git config --local user.email "devon+github-actions[bot]@hubner.org"
           git config --local user.name "github-actions[bot]"
+          git add -A Images-HT/starwars/
           git commit -m "Making MISSING gifs from hires pngs" -a
 
       - name: Push changes
