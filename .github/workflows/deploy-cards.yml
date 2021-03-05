@@ -39,7 +39,9 @@ jobs:
           branch: ${{ github.ref }}
 
       - name: sync to s3
-        run: aws s3 sync ./Images-HT/starwars/ s3://res.starwarsccg.org/cards/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
+        run: |
+          aws s3 sync ./Images-HT/starwars/ s3://res.starwarsccg.org/cards/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
+          aws cloudfront create-invalidation --distribution-id E4R02360UW5RJ --paths "/cards/"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
