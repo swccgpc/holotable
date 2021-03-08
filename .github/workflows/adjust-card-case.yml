@@ -1,6 +1,6 @@
 ---
 
-name: Deploy Cards
+name: Adjust Card Case
 
 on: 
   push: 
@@ -8,6 +8,7 @@ on:
       - master
     paths:
       - 'Images-HT/starwars/**'
+      - 'Images-HT/legacy/**'
 
 
 jobs:
@@ -22,14 +23,12 @@ jobs:
 
       - name: Create local changes
         run: |
-          python3 make_gif_from_pngs.py
-          python3 make_t_gifs.py
+          python3 case_fixer.py
 
       - name: Commit files
         run: |
           git config --local user.email "devon+github-actions[bot]@hubner.org"
           git config --local user.name "github-actions[bot]"
-          git add -A Images-HT/starwars/ ; true
           git commit -m "Making MISSING gifs from hires pngs" -a ; true
 
       - name: Push changes
@@ -37,17 +36,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-
-      - name: sync to s3
-        run: |
-          aws s3 sync ./Images-HT/starwars/ s3://res.starwarsccg.org/cards/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
-          aws cloudfront create-invalidation --distribution-id E4R02360UW5RJ --paths "/cards/"
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-
-
-
 

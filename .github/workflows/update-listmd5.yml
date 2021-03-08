@@ -30,7 +30,7 @@ jobs:
       run: |
         git config --local user.email "devon+github-actions[bot]@hubner.org"
         git config --local user.name "github-actions[bot]"
-        git add -A .
+        git add -A . ; true
         git commit -m "updated listmd5 and release zip" -a ; true
     - name: Push changes
       uses: ad-m/github-push-action@master
