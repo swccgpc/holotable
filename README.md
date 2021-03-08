@@ -12,28 +12,17 @@ If you have any of these images, please upload them or contact [**Devon Hubner**
 
 ### ‼️We are currently looking for missing **Legacy** cards to which we can not locate:
 
-* `VirtualBlock4-Light/large/marisbroodfallenjediai.gif`
-* `VirtualBlock6-Light/large/dashinrogue12.gif`
-* `VirtualBlock8-Dark/large/jangofetttheassassinai.gif`
-* `VirtualBlock8-Light/large/errantventureai.gif`
 * `VirtualBlock9-Dark/large/droideka.gif`
 * `VirtualBlock9-Dark/large/durgesnovaswordfighter.gif`
+* `VirtualBlock9-Dark/large/executormeditationchamber.gif`
+* `VirtualBlock9-Dark/large/ihaveyounow.gif`
+* `VirtualBlock9-Dark/large/toonbucktoora.gif`
 * `VirtualBlock9-Light/large/boushh.gif`
 * `VirtualBlock9-Light/large/commandercody.gif`
 * `VirtualBlock9-Light/large/dexterjettster.gif`
 * `VirtualBlock9-Light/large/janorswithblasterpistol.gif`
-
-### ⚠️We are looking for originally produced legacy card versions of these cards:
-
-We have reasonable facsimiles in the holotable repo as placeholders.
-
-* [`VirtualBlock4-Dark/large/heisnotready.gif`](Images-HT/legacy/VirtualBlock4-Dark/large/heisnotready.gif)
-* [`VirtualBlock4-Light/large/ejecteject.gif`](Images-HT/legacy/VirtualBlock4-Light/large/ejecteject.gif)
-* [`VirtualBlock9-Dark/large/executormeditationchamber.gif`](Images-HT/legacy/VirtualBlock9-Dark/large/executormeditationchamber.gif)
-* [`VirtualBlock9-Dark/large/ihaveyounow.gif`](Images-HT/legacy/VirtualBlock9-Dark/large/ihaveyounow.gif)
-* [`VirtualBlock9-Dark/large/toonbucktoora.gif`](Images-HT/legacy/VirtualBlock9-Dark/large/toonbucktoora.gif)
-* [`VirtualBlock9-Light/large/majorhaashn.gif`](Images-HT/legacy/VirtualBlock9-Light/large/majorhaashn.gif)
-* [`VirtualBlock9-Light/large/mandalorianmishapjedimindtrick.gif`](Images-HT/legacy/VirtualBlock9-Light/large/mandalorianmishapjedimindtrick.gif)
+* `VirtualBlock9-Light/large/majorhaashn.gif`
+* `VirtualBlock9-Light/large/mandalorianmishapjedimindtrick.gif`
 
 
 
