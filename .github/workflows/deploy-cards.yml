@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --local user.email "devon+github-actions[bot]@hubner.org"
           git config --local user.name "github-actions[bot]"
-          git add -A Images-HT/starwars/ ; true
+          git add -A Images-HT/ ; true
           git commit -m "Making MISSING gifs from hires pngs" -a ; true
 
       - name: Push changes
@@ -40,7 +40,11 @@ jobs:
 
       - name: sync to s3
         run: |
+          echo "Cards"
           aws s3 sync ./Images-HT/starwars/ s3://res.starwarsccg.org/cards/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
+          echo "Legacy"
+          aws s3 sync ./Images-HT/legacy/ s3://res.starwarsccg.org/cards/legacy/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
+          echo "Cloudfront Invalidation"
           aws cloudfront create-invalidation --distribution-id E4R02360UW5RJ --paths "/cards/"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
