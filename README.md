@@ -5,6 +5,43 @@ Up to date card data for use with **Holotable**.
 
 After installing Holotable on Windows or Linux, use the Card Data Files _(CDF)_ on this site to update Holotable to the latest SWCCG release.
 
+
+## 🚨MISSING CARD IMAGES🚨
+
+If you have any of these images, please upload them or contact [**Devon Hubner**](mailto:devon@hubner.org)
+
+### ‼️We are currently looking for missing **Legacy** cards to which we can not locate:
+
+* `VirtualBlock4-Light/large/marisbroodfallenjediai.gif`
+* `VirtualBlock6-Light/large/dashinrogue12.gif`
+* `VirtualBlock8-Dark/large/jangofetttheassassinai.gif`
+* `VirtualBlock8-Light/large/errantventureai.gif`
+* `VirtualBlock9-Dark/large/droideka.gif`
+* `VirtualBlock9-Dark/large/durgesnovaswordfighter.gif`
+* `VirtualBlock9-Light/large/boushh.gif`
+* `VirtualBlock9-Light/large/commandercody.gif`
+* `VirtualBlock9-Light/large/dexterjettster.gif`
+* `VirtualBlock9-Light/large/janorswithblasterpistol.gif`
+
+### ⚠️We are looking for originally produced legacy card versions of these cards:
+
+We have reasonable facsimiles in the holotable repo as placeholders.
+
+* [`VirtualBlock4-Dark/large/heisnotready.gif`](Images-HT/legacy/VirtualBlock4-Dark/large/heisnotready.gif)
+* [`VirtualBlock4-Light/large/ejecteject.gif`](Images-HT/legacy/VirtualBlock4-Light/large/ejecteject.gif)
+* [`VirtualBlock9-Dark/large/executormeditationchamber.gif`](Images-HT/legacy/VirtualBlock9-Dark/large/executormeditationchamber.gif)
+* [`VirtualBlock9-Dark/large/ihaveyounow.gif`](Images-HT/legacy/VirtualBlock9-Dark/large/ihaveyounow.gif)
+* [`VirtualBlock9-Dark/large/toonbucktoora.gif`](Images-HT/legacy/VirtualBlock9-Dark/large/toonbucktoora.gif)
+* [`VirtualBlock9-Light/large/majorhaashn.gif`](Images-HT/legacy/VirtualBlock9-Light/large/majorhaashn.gif)
+* [`VirtualBlock9-Light/large/mandalorianmishapjedimindtrick.gif`](Images-HT/legacy/VirtualBlock9-Light/large/mandalorianmishapjedimindtrick.gif)
+
+
+
+
+
+
+
+
 ## Card Images
 
 * Images are in the `Images-HT/starwars/` subdirectory.
@@ -43,6 +80,10 @@ convert -quality 72 -resize 67x87 large/FILENAME.gif t_FILENAME.gif
 convert -quality 120 -resize 745x1039 hires/FILENAME.gif hires/FILENAME.png
 ```
 
+
+## Filename CaSe
+
+* All image files should be stored as _lowercase_ to avoid confusion and conflict.
 
 
 ## branch name
