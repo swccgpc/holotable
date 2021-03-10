@@ -6,31 +6,6 @@ Up to date card data for use with **Holotable**.
 After installing Holotable on Windows or Linux, use the Card Data Files _(CDF)_ on this site to update Holotable to the latest SWCCG release.
 
 
-## 🚨MISSING CARD IMAGES🚨
-
-If you have any of these images, please upload them or contact [**Devon Hubner**](mailto:devon@hubner.org)
-
-### ‼️We are currently looking for missing **Legacy** cards to which we can not locate:
-
-* `VirtualBlock9-Dark/large/droideka.gif`
-* `VirtualBlock9-Dark/large/durgesnovaswordfighter.gif`
-* `VirtualBlock9-Dark/large/executormeditationchamber.gif`
-* `VirtualBlock9-Dark/large/ihaveyounow.gif`
-* `VirtualBlock9-Dark/large/toonbucktoora.gif`
-* `VirtualBlock9-Light/large/boushh.gif`
-* `VirtualBlock9-Light/large/commandercody.gif`
-* `VirtualBlock9-Light/large/dexterjettster.gif`
-* `VirtualBlock9-Light/large/janorswithblasterpistol.gif`
-* `VirtualBlock9-Light/large/majorhaashn.gif`
-* `VirtualBlock9-Light/large/mandalorianmishapjedimindtrick.gif`
-
-
-
-
-
-
-
-
 ## Card Images
 
 * Images are in the `Images-HT/starwars/` subdirectory.
