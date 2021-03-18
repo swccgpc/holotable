@@ -1,4 +1,4 @@
-version 20210316
+version 20210318
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (legacy/VirtualBlock8-Dark/t_assassinsblasterrifle.gif) = c8e28b7da1881c9026a2265a7900be14
 MD5 (legacy/VirtualBlock8-Dark/t_contractkillers.gif) = 3b241a54338c5addc4fd2840b7b693c8
@@ -4382,6 +4382,7 @@ MD5 (starwars/Virtual6-Light/t_k2so.gif) = 2dd4eba3c6015c741c155e04dca34e9d
 MD5 (starwars/Virtual0-Dark/t_imbalance&kintanstrider.gif) = 99aa5c88d838e6fe8cbbb3f871e13495
 MD5 (starwars/Virtual0-Dark/t_youcannothideforever.gif) = 896013e86acf856188fc59343515ffdd
 MD5 (starwars/Virtual0-Dark/t_defensivefire.gif) = 437ad3fe5eb44fec451b917ad7ac583a
+MD5 (starwars/Virtual0-Dark/t_coarseandroughandirritating.gif) = 9c35ac0abcfdade7ecb5f7f9d9b97a42
 MD5 (starwars/Virtual0-Dark/t_4lomwithconcussionrifle.gif) = 8129ccbb19dc5c8684e53cfc6233d802
 MD5 (starwars/Virtual0-Dark/t_droideka.gif) = b06c34a53291347d5e0de6d32b70c39a
 MD5 (starwars/Virtual0-Dark/t_forcefield.gif) = 2d7a7555a9e971574c55d27368295f01
@@ -4473,6 +4474,7 @@ MD5 (starwars/Virtual0-Dark/large/conquest.gif) = 720b133e03469caec210be6c216ce8
 MD5 (starwars/Virtual0-Dark/large/rtichweei.gif) = 8a16fe08239215d4143d2b6f45bd400d
 MD5 (starwars/Virtual0-Dark/large/5d6ra7.gif) = 97f6996254149686e60ba9c36435212f
 MD5 (starwars/Virtual0-Dark/large/knowledgeanddefense.gif) = 1147cbf9cd6c8cb0d60dd6ca26ccbb36
+MD5 (starwars/Virtual0-Dark/large/coarseandroughandirritating.gif) = 8e989f599ac5c61438feaeb0397e861d
 MD5 (starwars/Virtual0-Dark/large/blasterrifle.gif) = c92a79cbca73477b5fb8ca7545146d2e
 MD5 (starwars/Virtual0-Dark/large/blockadesupportship.gif) = 134a5128b424e5aa593b9d5a55be28cf
 MD5 (starwars/Virtual0-Dark/large/imperialdecree.gif) = 85e2b4bcf3e863d1f7e3801af4fe662b
@@ -8111,6 +8113,7 @@ MD5 (starwars/Virtual13-Light/t_anakinskywalker.gif) = a0a2323dc111d5971fb95c2c9
 MD5 (starwars/Virtual0-Light/t_masterquigonai.gif) = 25a2c7f72aa1eb1d072f4e5f29b83686
 MD5 (starwars/Virtual0-Light/t_jabbasprizefront.gif) = a8f22dba55827e38b7ba75ea01165445
 MD5 (starwars/Virtual0-Light/t_forluck.gif) = af8e0f13dd65d28c2abb48a33fa0fa3b
+MD5 (starwars/Virtual0-Light/t_idontlikesand.gif) = e49f0c48e62d2f944b6e2979f43cf2d7
 MD5 (starwars/Virtual0-Light/t_anakinskywalkerpadawanlearner.gif) = cf069904bb7cdf55a3dd303a04340d57
 MD5 (starwars/Virtual0-Light/t_obiwaninradiantvii.gif) = 506753daca4ae7c3f01b32b2d418c27b
 MD5 (starwars/Virtual0-Light/t_aaylasecurah.gif) = 39e98ef3b7590617aaf5a584a70b1f1d
@@ -8246,6 +8249,7 @@ MD5 (starwars/Virtual0-Light/large/klorslug.gif) = 6c524fa8d62bc903065f7233450af
 MD5 (starwars/Virtual0-Light/large/simpletricksandnonsense.gif) = 51c16f66c25bc859861af9cd11d43cc2
 MD5 (starwars/Virtual0-Light/large/impressivemostimpressive.gif) = ff64d5b57dde8382f002800b185d79e3
 MD5 (starwars/Virtual0-Light/large/dontdothatagain.gif) = 2fe70a4892ae1937069dad6163491389
+MD5 (starwars/Virtual0-Light/large/idontlikesand.gif) = e892bf639ea3ca8f72c5babc79eb8556
 MD5 (starwars/Virtual0-Light/large/anakinslightsaber.gif) = f1237f12f198179a1814c238dc0cdb14
 MD5 (starwars/Virtual0-Light/large/hansheavyblasterpistol.gif) = aad93ff50e4697c8ab335d7f798312db
 MD5 (starwars/Virtual0-Light/large/therepublicnolongerfunctions.gif) = 300f148f6df87120f9ab8044ca9b6b61
