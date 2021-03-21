@@ -6,6 +6,7 @@ Up to date card data for use with **Holotable**.
 After installing Holotable on Windows or Linux, use the Card Data Files _(CDF)_ on this site to update Holotable to the latest SWCCG release.
 
 
+
 ## Card Images
 
 * Images are in the `Images-HT/starwars/` subdirectory.
@@ -19,6 +20,8 @@ After installing Holotable on Windows or Linux, use the Card Data Files _(CDF)_ 
 * Card images are served from `res.starwarsccg.org/cards`.
 * Card images are automatically uploaded to `res.starwarsccg.org/cards` when merging to the `main` branch.
 
+
+
 ## Image Dimensions
 
 Images used by **Holotable** are small and large. There are two sizes of large images. The newer large size is to accomodate larger screens and a desire to actually be able to read the text on a card.
@@ -28,21 +31,25 @@ Images used by **Holotable** are small and large. There are two sizes of large i
 * **current Large Images**: 745x1039 RGB 120dpi gif
 * **High Resolution Images**: 703×980 RGB 120dpi png
 
-### Automatic Image Creation
 
-* All `t_` small gif images, and `large/` gif images, will be generated automatically from High Resolution images uploaded to the `hires/` subdirectory.
 
-### Creating t_gif files using `ImageMagick`
+## Automatic Image Creation
+
+* `holotable.exe` uses the `t_*.gif` images and the `large/*.gif` images.
+* All images will be generated automatically from High Resolution images uploaded to the `hires/` subdirectory. **Images in the large directory can be, and WILL BE, overwritten from new images in the `hires` directory.**
+
+![](holotable_image_creation.png)
+
+
+
+### All downstream images are generated automatically by `ImageMagick`
 
 ```bash
 convert -quality 72 -resize 67x87 large/FILENAME.gif t_FILENAME.gif
 ```
 
-### Creating large gif files using `ImageMagick`
 
-```bash
-convert -quality 120 -resize 745x1039 hires/FILENAME.gif hires/FILENAME.png
-```
+
 
 
 ## Filename CaSe
@@ -50,9 +57,10 @@ convert -quality 120 -resize 745x1039 hires/FILENAME.gif hires/FILENAME.png
 * All image files should be stored as _lowercase_ to avoid confusion and conflict.
 
 
-## branch name
 
-* The default branch name needs to be renamed to `main`.
+## Branch Name
+
+* The default branch name *should* be renamed to `main`.
 * Unfortunately, the default branch needs to remain `master` until an update to `www.holotable.com/version.dat` can be released.
 * `www.holotable.com/version.dat` has a reference to the `listmd5` file stored on GitHub in the `master` branch.
 * `www.holotable.com/version.dat` requires that `listmd5.bz2` can be downloaded from:<br />`https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT/listmd5.bz2`
@@ -256,7 +264,8 @@ Icons: Death Star II
 Text: Each pilot deploys -1 (or -2 if with an admiral) aboard a capital starship. Each capital starship with a pilot character aboard is immune to attrition < 4 (or adds 2 to immunity). During each of your control phases, opponent loses 1 Force for each battleground site your general controls that is related to a system you occupy.
 ```
 
-> ⚠️ watch out for those bullet characters! Read more about document encoding requirements below ⚠️
+> ⚠️ Watch out for those bullet characters! ⚠️
+> ⚠️ Read more about document encoding requirements below ⚠️
 
 
 
