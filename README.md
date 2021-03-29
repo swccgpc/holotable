@@ -26,10 +26,10 @@ After installing Holotable on Windows or Linux, use the Card Data Files _(CDF)_ 
 
 Images used by **Holotable** are small and large. There are two sizes of large images. The newer large size is to accomodate larger screens and a desire to actually be able to read the text on a card.
 
-* **Small Images**: 67x87 RGB 72dpi gif
+* **Small *(`t_`)* Images**: 67x87 RGB 72dpi gif
 * **_Old_ Large Images**: 350x490 RGB 72dpi gif
-* **current Large Images**: 745x1039 RGB 120dpi gif
-* **High Resolution Images**: 703×980 RGB 120dpi png
+* **Standard Large Images**: 745x1039 RGB 120dpi gif
+* **High Resolution Images**: 703×980 RGB 120dpi png, *or better*
 
 
 

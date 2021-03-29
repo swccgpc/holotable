@@ -14,50 +14,50 @@ if not re.match(r'.*\/starwars$', os.getcwd()):
 
 print("\nFinding pngs \n")
 pngs = os.popen('find -iname \*.png').read()
-for png in pngs.split("\n"):
+pngs = pngs.split("\n")
+pngs.sort()
+
+for png in pngs:
   if ("x"+png != "x"):
     png            = re.sub(r'^\.\/', '', png)
     png_pieces     = png.split("/")
     setname        = png_pieces[0]
     png_subdir     = png_pieces[1]
     png_filename   = png_pieces[2]
-
     gif_filename   = png_filename.replace(".png", ".gif")
-    t_gif_filename = "t_" + gif_filename
 
-    ##
-    ## Only gif images are supported in the large directory.
-    ## "large" is used by the holotable app, so we will respect that requirement.
-    ##
-    print("  * ["+png+"]")
-    print("    ** set.....: ["+setname+"]")
-    print("    ** subdir..: ["+png_subdir+"]")
-    print("    ** filename: ["+png_filename+"]")
+    hires_png_filename  = setname + "/hires/" + png_filename
+    large_png_filename  = setname + "/large/" + png_filename
+    large_gif_filename  = setname + "/large/" + gif_filename
+    t_gif_filename      = setname + "/"       + "t_" + gif_filename
+
+    print("\n  * [" + png + "]")
+    print("    ** set.....: [" + setname + "]")
+    print("    ** subdir..: [" + png_subdir + "]")
+    print("    ** filename: [" + png_filename + "]")
 
     if (png_subdir == "hires"):
-      print("       *** png already in hires dir")
-    else:
-      if (os.path.isfile(setname+"/hires/"+png_filename)):
-        print("       *** png exists")
-      else:
-        print("       *** Moving png to hires")
-        dewit="mkdir -p "+setname+"/hires"
-        print("           "+dewit)
-        os.popen(dewit)
 
-        dewit="mv "+png+" "+setname+"/hires"
-        print("           "+dewit)
-        os.popen(dewit)
+      print("       *** hires png source....: " + hires_png_filename)
 
-    dewit="mkdir -p "+setname+"/large"
-    os.popen(dewit)
-    if (os.path.isfile(setname+"/large/"+gif_filename)):
-      print("       *** gif exists")
-    else:
-      print("       *** Generating gif")
-      dewit="convert -quality 120 -resize 745x1039 "+setname+"/hires/"+png_filename+" "+setname+"/large/"+gif_filename
-      print("           "+dewit)
+      dewit="mkdir -p "+setname+"/large"
       os.popen(dewit)
+
+      print("       *** Generating large gif: " + large_gif_filename)
+      dewit="convert -quality 120 -resize 745x1039 " + hires_png_filename + " " + large_gif_filename
+      os.popen(dewit)
+
+      #print("       *** Generating large png: " + large_png_filename)
+      #dewit="convert -quality 120 -resize 745x1039 " + hires_png_filename + " " + large_png_filename
+      #os.popen(dewit)
+
+      print("       *** Generating t_gif....: " + t_gif_filename)
+      dewit="convert -quality 120 -resize 67x87 " + large_gif_filename + " " + t_gif_filename
+      os.popen(dewit)
+
+
+
+    
 
 
 
