@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+
+##
+## git log -1 --name-only | grep hires
+##
+
+
 import os
 import re
 import time
@@ -12,13 +18,19 @@ if not re.match(r'.*\/starwars$', os.getcwd()):
   print("can not find the Images-HT/starwars directory... bailing out.")
   exit(1)
 
-print("\nFinding pngs \n")
-pngs = os.popen('find -iname \*.png').read()
+#print("\nFinding pngs modified in last 24 hours\n")
+#pngs = os.popen('find -mtime -1 -iname \*.png').read()
+
+print("\nFinding files changed in last git commit\n")
+pngs = os.popen("git log --name-only --pretty=oneline --full-index HEAD^^..HEAD | grep 'Images-HT/starwars' | sed 's/Images-HT\/starwars\///g'").read()
+print(type(pngs), pngs)
+
 pngs = pngs.split("\n")
 pngs.sort()
 
+print("Processing png files\n")
 for png in pngs:
-  if ("x"+png != "x"):
+  if (".png" in png):
     png            = re.sub(r'^\.\/', '', png)
     png_pieces     = png.split("/")
     setname        = png_pieces[0]
