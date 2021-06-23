@@ -30,6 +30,7 @@ jobs:
           git config --local user.email "devon+github-actions[bot]@hubner.org"
           git config --local user.name "github-actions[bot]"
           git commit -m "Making MISSING gifs from hires pngs" -a ; true
+          git pull -q ; true
 
       - name: Push changes
         uses: ad-m/github-push-action@master
