@@ -23,7 +23,7 @@ if not re.match(r'.*\/starwars$', os.getcwd()):
 
 print("\nFinding files changed in last git commit\n")
 pngs = os.popen("git log --name-only --pretty=oneline --full-index HEAD^^..HEAD | grep 'Images-HT/starwars' | sed 's/Images-HT\/starwars\///g'").read()
-#pngs = os.popen("find Virtual15-Dark/hires -iname \*.png").read()
+pngs = os.popen("find Virtual15-Dark/hires -iname \*.png").read()
 print(type(pngs), pngs)
 
 pngs = pngs.split("\n")
@@ -64,6 +64,7 @@ for png in pngs:
       #dewit="convert -quality 120 -resize 745x1039 " + hires_png_filename + " " + large_png_filename
       #os.popen(dewit)
 
+      os.popen("sleep 1")
       print("       *** Generating t_gif....: " + t_gif_filename)
       dewit="convert -quality 120 -resize 67x87 " + large_gif_filename + " " + t_gif_filename
       os.popen(dewit)
