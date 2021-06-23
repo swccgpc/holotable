@@ -16,6 +16,7 @@ for fil in fils.split("\n"):
         ("-title" not in filename) and
         ("CardBack.gif" not in filename) and
         ("t_" not in filename)
+        ("_ai" not in filename)
        ):
       print("  * ["+filename+"]: renaming to ["+filename_l+"]")
       to = fil.replace(filename, filename_l)
