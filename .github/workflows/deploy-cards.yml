@@ -29,6 +29,8 @@ jobs:
         run: |
           git config --local user.email "devon+github-actions[bot]@hubner.org"
           git config --local user.name "github-actions[bot]"
+          echo '[url "git@github.com:"]' >> ~/.gitconfig
+          echo 'insteadOf = https://github.com/' >> ~/.gitconfig
           git add -A Images-HT/ ; true
           git commit -m "Making MISSING gifs from hires pngs" -a ; true
           git pull -q ; true

@@ -10,13 +10,12 @@ fils = os.popen('find -type f').read()
 for fil in fils.split("\n"):
   fil_pieces = fil.split("/")
   filename   = fil_pieces[len(fil_pieces)-1]
-  filename_l = filename.lower().replace("'", "").replace("_", "").replace(" ", "")
+  filename_l = filename.lower().replace("'", "").replace("_", "").replace(" ", "").replace("ai.gif", "_ai.gif").replace("ai.png", "_ai.png")
   if ("x"+fil != "x"):
     if ((filename != filename_l) and
         ("-title" not in filename) and
         ("CardBack.gif" not in filename) and
         ("t_" not in filename)
-        ("_ai" not in filename)
        ):
       print("  * ["+filename+"]: renaming to ["+filename_l+"]")
       to = fil.replace(filename, filename_l)
