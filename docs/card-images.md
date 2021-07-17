@@ -1,6 +1,13 @@
 Card Images
 ===========
 
+* This git repo is the source of truth for **ALL** SWCCG card images.
+* This git repo uploads card images to `res.starwarsccg.org`, the SWCCG CDN.
+* The card images on `res.starwarsccg.org` are used by all SWCCG services, including: **scomp**, **gemp**, and `holotable.exe`
+
+
+## Card Images
+
 * Images are in the `Images-HT/starwars/` subdirectory.
   * Subdirectories within `starwars` contain sets, 1 for each side of the force. For example:
     - `EnhancedPremiere-Dark`
@@ -30,7 +37,7 @@ Images used by **Holotable** are small and large. There are two sizes of large i
 * `holotable.exe` uses the `t_*.gif` images and the `large/*.gif` images.
 * All images will be generated automatically from High Resolution images uploaded to the `hires/` subdirectory. **Images in the large directory can be, and WILL BE, overwritten from new images in the `hires` directory.**
 
-![](holotable_image_creation.png)
+![](pix/holotable_image_creation.png)
 
 
 

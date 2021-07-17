@@ -13,6 +13,7 @@ _Holotable_ - Source of truth for all SWCCG Card Images and `holotable.exe` Card
 
 * [`CDF` file format](docs/cdf-development.md)
 * [Card Images](docs/card-images.md)
+* [Serving `version.dat` for `holotable.exe`](docs/serving_versiondat_for_holotable.md)
 
 
 
@@ -36,5 +37,10 @@ _Holotable_ - Source of truth for all SWCCG Card Images and `holotable.exe` Card
 
 
 
+### Shouldn't the branch name be changed from `master` to something more modern?
 
+* Changing the branch name from `master` to something more modern will break the `holoetable.exe` client.
+* Unfortunately, the default branch needs to remain `master` until an update to `www.holotable.com/version.dat` can be released.
+* `www.holotable.com/version.dat` has a reference to the `listmd5` file stored on GitHub in the `master` branch.
+* `www.holotable.com/version.dat` requires that `listmd5.bz2` can be downloaded from:<br />`https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT/listmd5.bz2`
 
