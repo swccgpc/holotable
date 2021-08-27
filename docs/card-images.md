@@ -4,7 +4,7 @@ Card Images
 * This git repo is the source of truth for **ALL** SWCCG card images.
 * This git repo uploads card images to `res.starwarsccg.org`, the SWCCG CDN.
 * The card images on `res.starwarsccg.org` are used by all SWCCG services, including: **scomp**, **gemp**, and `holotable.exe`
-
+* [Read more about how to upload images](upload-card-images.md)
 
 ## Card Images
 
@@ -50,10 +50,29 @@ convert -quality 72 -resize 67x87 large/FILENAME.gif t_FILENAME.gif
 
 
 
-
-## Filename CaSe
+## Filename CaSe, special characters, and spaces
 
 * All image files should be stored as _lowercase_ to avoid confusion and conflict.
+* All image filenames should not have special characters, such as: &, @, -
+* All image filenames should not have spaces.
+
+| Incorrect                           | Correct                        |
+| ----------------------------------- | ------------------------------ |
+| oddballs_torrent_starfighter.png    | oddballstorrentstarfighter.png |
+| OddballsTorrentStarfighter.png      | oddballstorrentstarfighter.png |
+| "Oddball's Torrent Starfighter.png" | oddballstorrentstarfighter.png |
+| Vader&Obi-WanSeeker.png             | vaderobiwanseeker.png          |
+
+
+## Docking Bays
+
+* Docking Bays should always include the word _`docking bay`_ in their name.
+
+| Incorrect                           | Correct                        |
+| ----------------------------------- | ------------------------------ |
+| coruscantprivateplatform.gif        | coruscantprivateplatformdockingbay.gif |
+| scariflandingpadnine_ai.png         | scariflandingpadninedockingbay_ai.png |
+| scariflandingpadnine.gif            | scariflandingpadninedockingbay.gif |
 
 
 
