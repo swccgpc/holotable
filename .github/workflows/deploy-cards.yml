@@ -17,7 +17,8 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
-      - uses: actions/checkout@main
+      ## https://github.com/actions/checkout
+      - uses: actions/checkout@v2
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
@@ -42,12 +43,13 @@ jobs:
         run: |
           git config --local user.email "devon+github-actions[bot]@hubner.org"
           git config --local user.name "github-actions[bot]"
-          echo '[url "git@github.com:"]' >> ~/.gitconfig
-          echo 'insteadOf = https://github.com/' >> ~/.gitconfig
+          #echo '[url "git@github.com:"]' >> ~/.gitconfig
+          #echo 'insteadOf = https://github.com/' >> ~/.gitconfig
           git add -A Images-HT/ ; true
           git commit -m "Fixing case and making gifs" -a ; true
-          git pull -q ; true
+          #git pull -q ; true
 
+      ## https://github.com/ad-m/github-push-action
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
