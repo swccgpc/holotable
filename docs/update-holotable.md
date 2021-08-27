@@ -11,7 +11,7 @@ Update Holotable
 * Extract the zip file in to the Holotable directory.<br />For example: `C:\holotable`
 
 [![](pix/play_holotable_update_cdf_files.png)](mov/holotable_update_cdf_files.mp4)
-
+https://github.com/swccgpc/holotable/raw/feature/readme/docs/mov/holotable_update_cdf_files.mp4
 
 ### If unknown, find the Holotable directory:
 * Run Holotable.
