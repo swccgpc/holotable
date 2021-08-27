@@ -8,10 +8,12 @@ on:
       - master
     paths:
       - 'Images-HT/starwars/**'
-
+      - 'Images-HT/*.gif'
+      - 'darkside.cdf'
+      - 'lightside.cdf'
 
 jobs:
-  deploy-holotable: 
+  dewit: 
     runs-on: "ubuntu-latest"
 
     steps:
@@ -20,10 +22,21 @@ jobs:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
 
-      - name: Create local changes
+      - name: Case Fixer
+        run: |
+          python3 case_fixer.py
+
+      - name: Make gifs
         run: |
           python3 make_gif_from_pngs.py
           python3 make_t_gifs.py
+
+      - name: Update listmd5 and create release zip
+        run: |
+          bash make_listmd5.sh
+          python3 fix_bullets.py
+          python3 make_version_dat.py
+          bash make_release_zip.sh
 
       - name: Commit files
         run: |
@@ -32,7 +45,7 @@ jobs:
           echo '[url "git@github.com:"]' >> ~/.gitconfig
           echo 'insteadOf = https://github.com/' >> ~/.gitconfig
           git add -A Images-HT/ ; true
-          git commit -m "Making MISSING gifs from hires pngs" -a ; true
+          git commit -m "Fixing case and making gifs" -a ; true
           git pull -q ; true
 
       - name: Push changes
