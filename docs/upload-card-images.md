@@ -31,6 +31,20 @@ Upload Card Images
 
 
 
+## Instructions for uploading Card Images
+
+* You will need a **[GitHub account](https://www.github.com/)**.
+* You will need a **Git client**:
+  * [Windows users are recommended to use TortoiseGit. Follow these instructions to install it](git-for-windows-users.md).
+  * [MacOS users are recommended to use Sourcetree. Follow these instructions to install it](git-for-macos-users.md)
+  * [Users familiar with the commandline are recommended to use `git`.](git-for-shell-users.md)
+* **Fork** the `holotable` git repo. **Clone** your fork locally. **Add** the images. **Commit** the changes. **Push** the changes. Create a **pull request**:
+  * [For Windows users, you can follow this reference](upload-card-images-windows.md).
+  * [For MacOS users, you can follow this reference](upload-card-images-macos.md).
+  * [Users familiar with the commandline can follow this reference.](upload-card-images-shell.md)
+
+
+
 
 
 
