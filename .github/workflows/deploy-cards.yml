@@ -39,22 +39,6 @@ jobs:
           python3 make_version_dat.py
           bash make_release_zip.sh
 
-      - name: Commit files
-        run: |
-          git config --local user.email "devon+github-actions[bot]@hubner.org"
-          git config --local user.name "github-actions[bot]"
-          #echo '[url "git@github.com:"]' >> ~/.gitconfig
-          #echo 'insteadOf = https://github.com/' >> ~/.gitconfig
-          git add -A Images-HT/ ; true
-          git commit -m "Fixing case and making gifs" -a ; true
-          #git pull -q ; true
-
-      ## https://github.com/ad-m/github-push-action
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
 
       - name: sync to s3
         run: |
@@ -71,5 +55,20 @@ jobs:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
 
 
+      - name: Commit files
+        run: |
+          git config --local user.email "devon+github-actions[bot]@hubner.org"
+          git config --local user.name "github-actions[bot]"
+          #echo '[url "git@github.com:"]' >> ~/.gitconfig
+          #echo 'insteadOf = https://github.com/' >> ~/.gitconfig
+          git add -A Images-HT/ ; true
+          git commit -m "Fixing case and making gifs" -a ; true
+          #git pull -q ; true
 
 
+      ## https://github.com/ad-m/github-push-action
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
