@@ -30,13 +30,16 @@ jobs:
       - name: Make gifs
         run: |
           python3 make_gif_from_pngs.py
+          sleep 2s
           python3 make_t_gifs.py
 
       - name: Update listmd5 and create release zip
         run: |
           bash make_listmd5.sh
           python3 fix_bullets.py
+          sleep 2s
           python3 make_version_dat.py
+          sleep 2s
           bash make_release_zip.sh
 
 
