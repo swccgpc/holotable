@@ -30,6 +30,18 @@ Upload Card Images
 | Vader&Obi-WanSeeker.png             | vaderobiwanseeker.png          |
 
 
+## Docking Bays
+
+* Docking Bays should always include the word _`docking bay`_ in their name.
+
+| Incorrect                           | Correct                        |
+| ----------------------------------- | ------------------------------ |
+| coruscantprivateplatform.gif        | coruscantprivateplatformdockingbay.gif |
+| scariflandingpadnine_ai.png         | scariflandingpadninedockingbay_ai.png |
+| scariflandingpadnine.gif            | scariflandingpadninedockingbay.gif |
+
+
+
 
 ## Instructions for uploading Card Images
 
