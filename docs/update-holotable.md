@@ -4,6 +4,7 @@ Update Holotable
 * This repo uses up to date card data for use with **Holotable**.
 * After installing Holotable on **Windows**, use the latest Card Data Files _(CDF)_ bundle o update Holotable to the latest SWCCG release.
 
+
 ### Download latest CDF bundle
 * Download the [`latest.zip`](../latest.zip) bundle which includes the latest `cdf` files:
   * _[`lightside.cdf`](../lightside.cdf)_
@@ -13,7 +14,12 @@ Update Holotable
 [![](pix/play_holotable_update_cdf_files.png)](mov/holotable_update_cdf_files.mp4)
 https://github.com/swccgpc/holotable/raw/feature/readme/docs/mov/holotable_update_cdf_files.mp4
 
-### If unknown, find the Holotable directory:
+### Download the legacy CDF files
+* Legacy files are not part of the latest CDF Bundle.
+* `darkside-legacy.cdf` and `lightside-legacy.cdf` are seperate downloads as the contents do not change.
+
+
+### If Card image root directory unknown, find the Holotable directory:
 * Run Holotable.
 * Click on the `Table` menu
 * Click on the `Options` menu item
