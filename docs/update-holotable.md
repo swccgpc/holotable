@@ -4,7 +4,6 @@ Update Holotable
 * This repo uses up to date card data for use with **Holotable**.
 * After installing Holotable on **Windows**, use the latest Card Data Files _(CDF)_ bundle o update Holotable to the latest SWCCG release.
 
-
 ### Download latest CDF bundle
 * Download the [`latest.zip`](../latest.zip) bundle which includes the latest `cdf` files:
   * _[`lightside.cdf`](../lightside.cdf)_
@@ -13,11 +12,6 @@ Update Holotable
 
 [![](pix/play_holotable_update_cdf_files.png)](mov/holotable_update_cdf_files.mp4)
 https://github.com/swccgpc/holotable/raw/feature/readme/docs/mov/holotable_update_cdf_files.mp4
-
-### Download the legacy CDF files
-* Legacy files are not part of the latest CDF Bundle.
-* `darkside-legacy.cdf` and `lightside-legacy.cdf` are seperate downloads as the contents do not change.
-
 
 ### If Card image root directory unknown, find the Holotable directory:
 * Run Holotable.
@@ -28,13 +22,10 @@ https://github.com/swccgpc/holotable/raw/feature/readme/docs/mov/holotable_updat
 
 ![](pix/holotable_options_initialization_card_image_root_directory.png)
 
-
-
 ### Launch Holotable
 * When launching `holotable.exe` it prompts to download the latest CDF files from the `holotable.com` site. The files on `holotable.com` are out of date. The CDF files in `latest.zip` are the most up to date.
 
 ![](pix/holotable_cdf_prompt.png)
-
 
 ### Prevent `holotable.exe` from updating the CDF files
 * Run Holotable.
@@ -45,7 +36,6 @@ https://github.com/swccgpc/holotable/raw/feature/readme/docs/mov/holotable_updat
 
 ![](pix/holotable_options_updates.png)
 
-
 ### Restart holotable to prompt image download
 
 * Restart `holotable.exe`. Holotable should download the latest image files detailed in the CDF files.
@@ -54,13 +44,3 @@ https://github.com/swccgpc/holotable/raw/feature/readme/docs/mov/holotable_updat
 * After the images are updated, when launching `holodeck.exe` the latest Virtual Sets and card images will be displayed:
 
 ![](pix/holodeck_set15.png)
-
-
-
-
-
-
-
-
-
-
