@@ -1,7 +1,7 @@
-version 20220120
+version 20220127
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (imp.gif) = 17e7ec1cede9f979603de547ce07fae4
-MD5 (starwars/DeathStarII-Light/t_keirsantage.gif) = 32140a8daff3ff9fd617d10c043f23ad
+MD5 (starwars/DeathStarII-Light/t_keirsantage.gif) = 6f0f952c27841936e04ad4620fa97b68
 MD5 (starwars/DeathStarII-Light/t_goldsquadron1.gif) = 4b978ee3d461f181791d4cdb18ca4c40
 MD5 (starwars/DeathStarII-Light/t_orbitalmine.gif) = f74033c75497248bf7237ef68bd677d2
 MD5 (starwars/DeathStarII-Light/t_headingforthemedicalfrigate.gif) = 02decba187897c07a2b5c4d6548885b8
@@ -9,7 +9,7 @@ MD5 (starwars/DeathStarII-Light/t_sullust.gif) = 59ce7d661c541eaa48bba0ea8ef9b74
 MD5 (starwars/DeathStarII-Light/t_twilightisuponme.gif) = f9f1212b66014a9045b82530619693b2
 MD5 (starwars/DeathStarII-Light/t_awingcannon.gif) = 345bf69384d82f5eac82267cfbc19354
 MD5 (starwars/DeathStarII-Light/t_liberty.gif) = 0a267c5f94e3f3dc4ded1062652e12ab
-MD5 (starwars/DeathStarII-Light/t_lieutenanttelsij.gif) = 85e904ccd88624ad463d10850e7eb396
+MD5 (starwars/DeathStarII-Light/t_lieutenanttelsij.gif) = 2ab91ffd73b6f27a659aa5549bc92ae1
 MD5 (starwars/DeathStarII-Light/t_letskeepalittleoptimismhere.gif) = 1a6df97b9422ecb30384b0fe8955effc
 MD5 (starwars/DeathStarII-Light/t_redsquadron4.gif) = 1efae7800da18f672e07a0af9bc58b2e
 MD5 (starwars/DeathStarII-Light/t_moncalamaristarcruiser.gif) = 922f2db05d65b5c06af1ee1710160cc3
@@ -33,7 +33,7 @@ MD5 (starwars/DeathStarII-Light/large/redsquadron1.gif) = 16c28da1280d4c23c15be8
 MD5 (starwars/DeathStarII-Light/large/thereisgoodinhim.gif) = 18f675ae5f01789f17c14149e8307cad
 MD5 (starwars/DeathStarII-Light/large/liberty.gif) = 3520930a9e65b62def27ea020ca5008a
 MD5 (starwars/DeathStarII-Light/large/kinkian.gif) = b4846e72d20dc15640db75e3fab96c08
-MD5 (starwars/DeathStarII-Light/large/keirsantage.gif) = 50651e9767d031d0bd6d1345d56309b4
+MD5 (starwars/DeathStarII-Light/large/keirsantage.gif) = 01e2c49aed4646a52414e02a3e3ede92
 MD5 (starwars/DeathStarII-Light/large/awingcannon.gif) = 64641c0b17dfb6d64915958ab7b10d0a
 MD5 (starwars/DeathStarII-Light/large/majorhaashn.gif) = 37aac6d8bfd130112e2ec92dec6ab762
 MD5 (starwars/DeathStarII-Light/large/homeonedockingbay.gif) = 56460d14054ce20638ec635a85a5027b
@@ -56,7 +56,7 @@ MD5 (starwars/DeathStarII-Light/large/corporalmarmor.gif) = 0d7b892a9a1594d6259c
 MD5 (starwars/DeathStarII-Light/large/colonelcracken.gif) = d38379130cbc4d214d729b6ef227423b
 MD5 (starwars/DeathStarII-Light/large/majorolanderbrit.gif) = c1eb77c54270dc6c42189322f6d65dfc
 MD5 (starwars/DeathStarII-Light/large/admiralackbar.gif) = 78122db73ccbadd1ba8141f3ee2cb7c1
-MD5 (starwars/DeathStarII-Light/large/lieutenanttelsij.gif) = da8a9a8deccd98855a80437299090888
+MD5 (starwars/DeathStarII-Light/large/lieutenanttelsij.gif) = 9654a1d965c665e639d863d78db42ae4
 MD5 (starwars/DeathStarII-Light/large/defiance.gif) = d2be51d16ed62c3dd78af3bc17ecd2fc
 MD5 (starwars/DeathStarII-Light/large/yourinsightservesyouwell.gif) = 239e1661092619acc38ea9ec4a72b0c6
 MD5 (starwars/DeathStarII-Light/large/niennunb.gif) = 35845fe37edc1fa6f589f36e842795b5
