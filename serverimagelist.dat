@@ -1,4 +1,4 @@
-version 20220207
+version 20220304
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (starwars/PremiereIntroductoryTwoPlayerGame-Dark/t_vader.gif) = 6229e6b9adc8f24032e997f723bbc391
 MD5 (starwars/PremiereIntroductoryTwoPlayerGame-Dark/t_deathstardockingcontrolroom327.gif) = 9473622d4880535eb9aaaff04a92ecb3
@@ -6817,6 +6817,7 @@ MD5 (starwars/ThirdAnthology-Dark/t_theultimatepowerintheuniverse.gif) = 4e5c9a7
 MD5 (starwars/Premiere-Dark/t_tacticalrecall.gif) = 461384343c4749bec97964ccf70abdf8
 MD5 (starwars/Premiere-Dark/t_darkcollaboration.gif) = ba7b1d16613b249137fef9905b7b02b5
 MD5 (starwars/Premiere-Dark/t_jawa.gif) = b126002f96d1621abd68a3b2bf0c82d5
+MD5 (starwars/Premiere-Dark/t_tentacle.gif) = 356d5dc6e23ebe211fe554a627254f54
 MD5 (starwars/Premiere-Dark/t_youoverestimatetheirchances.gif) = f8cb16ce445e13218a4a2c94188b5313
 MD5 (starwars/Premiere-Dark/t_bantha.gif) = 7591814afda65a1ffe838105e5e5bfa6
 MD5 (starwars/Premiere-Dark/t_lieutenanttanbris.gif) = 4dca25fdf5642b9e94234eb40085581c
@@ -7046,6 +7047,7 @@ MD5 (starwars/Premiere-Dark/large/deathstartrooper.gif) = 11206050b55de0e59f665b
 MD5 (starwars/Premiere-Dark/large/alter.gif) = 6dc42a1516c539b76f6373e0414e8290
 MD5 (starwars/Premiere-Dark/large/adisturbanceintheforce.gif) = 747613a2f94bd62c291ae5e6b7890a49
 MD5 (starwars/Premiere-Dark/large/deathstardockingbay327.gif) = da5ac66166ea6764c99cb5ac2437d1e9
+MD5 (starwars/Premiere-Dark/large/tentacle.gif) = 3bf935f9f6167c15f644e77c51ea079a
 MD5 (starwars/Premiere-Dark/large/ketmaliss.gif) = 313da915d6ff6a28052d1125057fe0d7
 MD5 (starwars/Premiere-Dark/large/5d6ra7.gif) = 10904cd5a12956596c550c4311708802
 MD5 (starwars/Premiere-Dark/large/miiyoomonith.gif) = 6c484eb75082b4977f1386d0e991183b
