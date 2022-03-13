@@ -1,0 +1,29 @@
+---
+
+name: Deploy Gemp
+
+on: 
+  push: 
+    branches: 
+      - master
+    paths:
+      - 'Images-HT/gemp/**'
+
+jobs:
+  dewit: 
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - uses: actions/checkout@main
+
+      - name: sync to s3
+        run: |
+          echo "Gemp resources"
+          aws s3 sync ./Images-HT/gemp/ s3://res.starwarsccg.org/gemp/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
+          echo "Cloudfront Invalidation"
+          aws cloudfront create-invalidation --distribution-id E4R02360UW5RJ --paths "/gemp/"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
