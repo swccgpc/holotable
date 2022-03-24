@@ -34,6 +34,8 @@ for png in pngs:
   if (".png" in png):
     png            = re.sub(r'^\.\/', '', png)
     png_pieces     = png.split("/")
+    if len(png_pieces) < 2:
+      continue
     setname        = png_pieces[0]
     png_subdir     = png_pieces[1]
     png_filename   = png_pieces[2]
