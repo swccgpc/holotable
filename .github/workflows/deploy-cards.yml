@@ -119,7 +119,9 @@ jobs:
           cd holotable_exe/
           chmod +x ./update_cards.py
           ./update_cards.py
-          git tag ${TIMESTAMP}
-          git push origin ${TIMESTAMP}
+          git add -a .
+          git commit -m "${TIMESTAMP}"
+          git tag "${TIMESTAMP}"
+          git push origin "${TIMESTAMP}"
           cd ..
           rm swccg-holotable-exe.pem
