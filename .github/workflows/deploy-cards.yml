@@ -22,6 +22,13 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+          path: holotable
+
+      - name: Checking working directory
+        run: |
+          echo
+          echo "should be in /home/runner/work/holotable: [$(pwd)]"
+          echo
 
       - name: Case Fixer
         run: |
@@ -75,3 +82,44 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
+
+
+      - name: Commit updates to holotable_exe
+        run: |
+          echo
+          echo
+          echo "ls"
+          ls -al
+          echo
+          echo "git....: [$(which git)]: $(git --version)"
+          echo "python3: [$(which python3)]"
+          echo "rsync..: [$(which rsync)]"
+          echo
+          echo "should be in /home/runner/work/holotable: [$(pwd)]"
+          cd ..
+          echo "should be in /home/runner/work/: [$(pwd)]"
+          echo
+          echo "${{ secrets.SWCCG_HOLOTABLE_EXE }}" > swccg-holotable-exe.pem
+          chmod 0600 swccg-holotable-exe.pem
+          echo "swccg-holotable-exe.pem info:"
+          ls -al swccg-holotable-exe.pem
+          export TIMESTAMP=$(date +'%Y%m%d-%H%M')
+          echo
+          echo "Setting GIT_SSH_COMMAND"
+          export GIT_SSH_COMMAND="ssh -i swccg-holotable-exe.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+          echo "git clone DiscordCardLinker"
+          git clone git@github.com:swccgpc/holotable_exe.git holotable_exe
+          echo
+          echo "ls"
+          ls -al
+          echo
+          ls holotable_exe
+          echo
+          echo "copy cdf and image files to holotable_exe"
+          cd holotable_exe/
+          chmod +x ./update_cards.py
+          ./update_cards.py
+          git tag ${TIMESTAMP}
+          git push origin ${TIMESTAMP}
+          cd ..
+          rm swccg-holotable-exe.pem
