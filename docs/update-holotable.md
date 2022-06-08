@@ -10,7 +10,7 @@ Update Holotable
   * _[`darkside.cdf`](../darkside.cdf)_
 * Extract the zip file in to the Holotable directory.<br />For example: `C:\holotable`
 
-[![](pix/play_holotable_update_cdf_files.png)](mov/holotable_update_cdf_files.mp4)
+[![](pix/play_holotable_update_cdf_files.png)](https://github.com/swccgpc/holotable/blob/master/docs/mov/holotable_update_cdf_files.mp4?raw=true)
 https://github.com/swccgpc/holotable/raw/feature/readme/docs/mov/holotable_update_cdf_files.mp4
 
 ### If Card image root directory unknown, find the Holotable directory:
