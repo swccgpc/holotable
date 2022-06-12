@@ -27,8 +27,9 @@ jobs:
       - name: Checking working directory
         run: |
           echo
-          echo "should be in /home/runner/work/holotable: [$(pwd)]"
+          echo "should be in /home/runner/work/holotable/holotable: [$(pwd)]"
           echo
+          ls
 
       - name: Case Fixer
         run: |
@@ -38,7 +39,6 @@ jobs:
         run: |
           python3 make_gif_from_pngs.py
           sleep 2s
-          python3 make_t_gifs.py
 
       - name: Update listmd5 and create release zip
         run: |
@@ -57,7 +57,7 @@ jobs:
           echo "Legacy"
           aws s3 sync ./Images-HT/legacy/ s3://res.starwarsccg.org/cards/legacy/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
           echo "Cloudfront Invalidation"
-          aws cloudfront create-invalidation --distribution-id E4R02360UW5RJ --paths "/cards/"
+          aws cloudfront create-invalidation --distribution-id E4R02360UW5RJ --paths "/cards/" "/cards/*"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -95,9 +95,9 @@ jobs:
           echo "python3: [$(which python3)]"
           echo "rsync..: [$(which rsync)]"
           echo
-          echo "should be in /home/runner/work/holotable: [$(pwd)]"
+          echo "should be in /home/runner/work/holotable/holotable: [$(pwd)]"
           cd ..
-          echo "should be in /home/runner/work/: [$(pwd)]"
+          echo "should be in /home/runner/work/holotable: [$(pwd)]"
           echo
           echo "${{ secrets.SWCCG_HOLOTABLE_EXE }}" > swccg-holotable-exe.pem
           chmod 0600 swccg-holotable-exe.pem
