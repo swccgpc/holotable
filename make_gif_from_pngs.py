@@ -1,81 +1,82 @@
 #!/usr/bin/env python3
 
-
-##
-## git log -1 --name-only | grep hires
-##
-
+# pip3 install Pillow
+from PIL import Image
 
 import os
-import re
-import time
 
-if not re.match(r'.*\/starwars$', os.getcwd()):
-  print("Changing to Images-HT/starwars directory to look for pngs")
-  os.chdir("Images-HT/starwars")
 
-if not re.match(r'.*\/starwars$', os.getcwd()):
-  print("can not find the Images-HT/starwars directory... bailing out.")
-  exit(1)
+def process_file(f = "Images-HT/starwars/VirtualAlternateImage-Dark/hires/iamyourfather_ai.png"):
+  with Image.open(f) as im:
+    width, height = im.size
+    print("    * size:",width,"x",height)
+    gif_filename   = f.replace(".png", ".gif").replace("hires", "large")
+    gif_t_filename = f.replace(".png", ".gif").replace("hires/", "t_")
+    print("    * gif_t: "+gif_t_filename)
+    print("    * gif..: "+gif_filename)
+    if height > width:
+      print("    * tall - generate portrait card (745x1039)")
+      write_gif(im, size_tall, gif_filename)
+      write_gif(im, size_tall_t, gif_t_filename)
+    else:
+      print("    * wide - generate landscape card (1039x745)")
+      write_gif(im, size_wide, gif_filename)
+      write_gif(im, size_wide_t, gif_t_filename)
+    print(os.popen('git add '+gif_filename).read())
+    print(os.popen('git add '+gif_t_filename).read())
 
-#print("\nFinding pngs modified in last 24 hours\n")
-#pngs = os.popen('find -mtime -1 -iname \*.png').read()
+def write_gif(im, size, filename):
+  try:
+    print("    * Writing image file: "+filename)
+    im.thumbnail(size, Image.ANTIALIAS)
+    im.save(filename, "PNG")
+  except IOError:
+    print("    ! Unable to generate image !")
+    exit(1)
 
+
+
+
+
+size_wide=1039,745
+size_tall=745,1039
+
+size_wide_t=87,67
+size_tall_t=67,87
+
+process_all_files = False
+
+
+##
+## process ALL files
+##
+if process_all_files:
+  rootdir='Images-HT/starwars'
+  for file in os.listdir(rootdir):
+    d = os.path.join(rootdir, file)
+    if os.path.isdir(d):
+      print(d)
+      hires_dir = d+"/hires"
+      if os.path.isdir(hires_dir):
+        for f in os.listdir(hires_dir):
+          dd = os.path.join(hires_dir, f)
+          print("  * "+dd)
+          process_file(dd)
+
+##
+## process files changed in the last commit
+##
 print("\nFinding files changed in last git commit\n")
-pngs = os.popen("git log --name-only --pretty=oneline --full-index HEAD^^..HEAD | grep 'Images-HT/starwars' | sed 's/Images-HT\/starwars\///g'").read()
-#pngs = os.popen("find Virtual15-Light/hires -iname \*.png").read()
-print(type(pngs), pngs)
-
+pngs = os.popen("git log --name-only --pretty=oneline --full-index HEAD^^..HEAD | grep 'Images-HT/starwars'").read()
 pngs = pngs.split("\n")
 pngs.sort()
-
-print("Processing png files\n")
-for png in pngs:
-  if (".png" in png):
-    png            = re.sub(r'^\.\/', '', png)
-    png_pieces     = png.split("/")
-    if len(png_pieces) < 2:
-      continue
-    setname        = png_pieces[0]
-    png_subdir     = png_pieces[1]
-    png_filename   = png_pieces[2]
-    gif_filename   = png_filename.replace(".png", ".gif")
-
-    hires_png_filename  = setname + "/hires/" + png_filename
-    large_png_filename  = setname + "/large/" + png_filename
-    large_gif_filename  = setname + "/large/" + gif_filename
-    t_gif_filename      = setname + "/"       + "t_" + gif_filename
-
-    print("\n  * [" + png + "]")
-    print("    ** set.....: [" + setname + "]")
-    print("    ** subdir..: [" + png_subdir + "]")
-    print("    ** filename: [" + png_filename + "]")
-
-    if (png_subdir == "hires"):
-
-      print("       *** hires png source....: " + hires_png_filename)
-
-      dewit="mkdir -p "+setname+"/large"
-      os.popen(dewit)
-
-      print("       *** Generating large gif: " + large_gif_filename)
-      dewit="convert -quality 120 -resize 745x1039 " + hires_png_filename + " " + large_gif_filename
-      os.popen(dewit)
-
-      #print("       *** Generating large png: " + large_png_filename)
-      #dewit="convert -quality 120 -resize 745x1039 " + hires_png_filename + " " + large_png_filename
-      #os.popen(dewit)
-
-      os.popen("sleep 1")
-      print("       *** Generating t_gif....: " + t_gif_filename)
-      dewit="convert -quality 120 -resize 67x87 " + large_gif_filename + " " + t_gif_filename
-      os.popen(dewit)
+for f in pngs:
+  if f != "":
+    print(f)
+    process_file(f)
 
 
-
-    
-
+exit(0)
 
 
-print("\ndone.\n")
 
