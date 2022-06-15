@@ -34,13 +34,19 @@ jobs:
           find /home/runner/work -maxdepth 1 -mindepth 1 | awk '{print "  "$0;}'
           echo
           echo "/home/runner/work"
-          ls -al /home/runner/work/
+          ls -al /home/runner/work/ | awk '{print "  "$0;}'
           echo
           echo "/home/runner/work/holotable"
           find /home/runner/work/holotable -maxdepth 1 -mindepth 1 | awk '{print "  "$0;}'
           echo
+          echo "/home/runner/work/holotable/"
+          ls -al /home/runner/work/holotable/ | awk '{print "  "$0;}'
+          echo
           echo "/home/runner/work/holotable/holotable"
           find /home/runner/work/holotable/holotable -maxdepth 1 -mindepth 1 | awk '{print "  "$0;}'
+          echo
+          echo "/home/runner/work/holotable/holotable/"
+          ls -al /home/runner/work/holotable/holotable/ | awk '{print "  "$0;}'
 
       - name: Case Fixer
         run: |
