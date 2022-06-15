@@ -47,6 +47,12 @@ jobs:
           echo
           echo "/home/runner/work/holotable/holotable/"
           ls -al /home/runner/work/holotable/holotable/ | awk '{print "  "$0;}'
+          echo
+          echo "/home/runner/work/holotable/holotable/holotable/"
+          find /home/runner/work/holotable/holotable/holotable/ -maxdepth 1 -mindepth 1 | awk '{print "  "$0;}'
+          echo
+          echo "/home/runner/work/holotable/holotable/holotable/"
+          ls -al /home/runner/work/holotable/holotable/holotable/ | awk '{print "  "$0;}'
 
       - name: Case Fixer
         run: |
