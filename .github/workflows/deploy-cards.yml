@@ -96,7 +96,7 @@ jobs:
           #echo '[url "git@github.com:"]' >> ~/.gitconfig
           #echo 'insteadOf = https://github.com/' >> ~/.gitconfig
           git add -A Images-HT/ ; true
-          git commit -m "Fixing case and making gifs" -a ; true
+          git commit -m "Fixing case and making gifs" ; true
           #git pull -q ; true
 
 
@@ -141,9 +141,11 @@ jobs:
           echo
           echo "copy cdf and image files to holotable_exe"
           cd holotable_exe/
+          echo "should be in /home/runner/work/holotable/holotable_exe: [$(pwd)]"
+          echo
           chmod +x ./update_cards.py
           ./update_cards.py
-          git add -a .
+          git add -A .
           git commit -m "${TIMESTAMP}"
           git tag "${TIMESTAMP}"
           git push origin "${TIMESTAMP}"
