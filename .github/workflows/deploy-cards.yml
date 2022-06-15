@@ -11,6 +11,7 @@ on:
       - 'Images-HT/*.gif'
       - 'darkside.cdf'
       - 'lightside.cdf'
+      - '.github/workflows/deploy-cards.yml'
 
 jobs:
   dewit: 
@@ -29,7 +30,12 @@ jobs:
           echo
           echo "should be in /home/runner/work/holotable/holotable: [$(pwd)]"
           echo
-          ls
+          echo "/home/runner/work"
+          find /home/runner/work -maxdepth 1 -mindepth 1
+          echo "/home/runner/work/holotable"
+          find /home/runner/work/holotable -maxdepth 1 -mindepth 1
+          echo "/home/runner/work/holotable/holotable"
+          find /home/runner/work/holotable/holotable -maxdepth 1 -mindepth 1
 
       - name: Case Fixer
         run: |
