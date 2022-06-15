@@ -96,7 +96,7 @@ jobs:
           #echo '[url "git@github.com:"]' >> ~/.gitconfig
           #echo 'insteadOf = https://github.com/' >> ~/.gitconfig
           git add -A Images-HT/ ; true
-          git commit -m "Fixing case and making gifs" ; true
+          git commit -m "Fixing case and making gifs" -a ; true
           #git pull -q ; true
 
 
@@ -146,7 +146,7 @@ jobs:
           chmod +x ./update_cards.py
           ./update_cards.py
           git add -A .
-          git commit -m "${TIMESTAMP}"
+          git commit -m "${TIMESTAMP}" -a
           git tag "${TIMESTAMP}"
           git push origin "${TIMESTAMP}"
           cd ..
