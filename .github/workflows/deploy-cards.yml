@@ -131,7 +131,7 @@ jobs:
           echo
           echo "Setting GIT_SSH_COMMAND"
           export GIT_SSH_COMMAND="ssh -i swccg-holotable-exe.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
-          echo "git clone DiscordCardLinker"
+          echo "git clone holotable_exe"
           git clone git@github.com:swccgpc/holotable_exe.git holotable_exe
           echo
           echo "ls"
