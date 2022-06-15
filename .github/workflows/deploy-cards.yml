@@ -110,6 +110,8 @@ jobs:
 
       - name: Commit updates to holotable_exe
         run: |
+          git config --local user.email "devon+github-actions[bot]@hubner.org"
+          git config --local user.name "github-actions[bot]"
           echo
           echo
           echo "ls"
@@ -142,6 +144,12 @@ jobs:
           echo "copy cdf and image files to holotable_exe"
           cd holotable_exe/
           echo "should be in /home/runner/work/holotable/holotable_exe: [$(pwd)]"
+          echo
+          echo "ls -al .."
+          echo ls -al .. | awk '{print "  "$0;}'
+          echo
+          echo "../holotable/Images-HT/starwars"
+          echo ls -al ../holotable/Images-HT/starwars | awk '{print "  "$0;}'
           echo
           chmod +x ./update_cards.py
           ./update_cards.py
