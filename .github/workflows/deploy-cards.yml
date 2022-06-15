@@ -31,11 +31,16 @@ jobs:
           echo "should be in /home/runner/work/holotable/holotable: [$(pwd)]"
           echo
           echo "/home/runner/work"
-          find /home/runner/work -maxdepth 1 -mindepth 1
+          find /home/runner/work -maxdepth 1 -mindepth 1 | awk '{print "  "$0;}'
+          echo
+          echo "/home/runner/work"
+          ls -al /home/runner/work/
+          echo
           echo "/home/runner/work/holotable"
-          find /home/runner/work/holotable -maxdepth 1 -mindepth 1
+          find /home/runner/work/holotable -maxdepth 1 -mindepth 1 | awk '{print "  "$0;}'
+          echo
           echo "/home/runner/work/holotable/holotable"
-          find /home/runner/work/holotable/holotable -maxdepth 1 -mindepth 1
+          find /home/runner/work/holotable/holotable -maxdepth 1 -mindepth 1 | awk '{print "  "$0;}'
 
       - name: Case Fixer
         run: |
