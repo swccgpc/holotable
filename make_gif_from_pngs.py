@@ -11,23 +11,42 @@ def process_file(f = "Images-HT/starwars/VirtualAlternateImage-Dark/hires/iamyou
     width, height = im.size
     print("    * size:",width,"x",height)
     gif_filename   = f.replace(".png", ".gif").replace("hires", "large")
-    gif_t_filename = f.replace(".png", ".gif").replace("hires/", "t_")
+    gif_t_filename = f.replace(".png", ".gif").replace("hires/", "t_").replace("large/", "t_")
     print("    * gif_t: "+gif_t_filename)
     print("    * gif..: "+gif_filename)
+
     if height > width:
       print("    * tall - generate portrait card (745x1039)")
-      write_gif(im, size_tall, gif_filename)
-      write_gif(im, size_tall_t, gif_t_filename)
+      if ("large/" in f):
+        print("    ! NOT WRITING large gif. Target same as source.")
+      else:
+        write_gif(im, size_tall, gif_filename)
+        print(os.popen('git add '+gif_filename).read())
+      if ("t_" in f):
+        print("    ! NOT WRITING t_ gif. Source should never be a t_ file.")
+      elif ("t_" not in gif_t_filename):
+        print("    ! NOT WRITING t_ gif. Target file should have t_ in the name.")
+      else:
+        write_gif(im, size_tall_t, gif_t_filename)
+        print(os.popen('git add '+gif_t_filename).read())
+
+
     else:
       print("    * wide - generate landscape card (1039x745)")
-      write_gif(im, size_wide, gif_filename)
-      write_gif(im, size_wide_t, gif_t_filename)
-    print(os.popen('git add '+gif_filename).read())
-    print(os.popen('git add '+gif_t_filename).read())
+      if ("large/" in f):
+        print("    ! NOT WRITING large gif. Target same as source.")
+      else:
+        write_gif(im, size_wide, gif_filename)
+        print(os.popen('git add '+gif_filename).read())
+      if ("t_" in f):
+        print("    ! NOT WRITING t_ gif. Source should never be a t_ file.")
+      else:
+        write_gif(im, size_wide_t, gif_t_filename)
+        print(os.popen('git add '+gif_t_filename).read())
 
 def write_gif(im, size, filename):
   try:
-    print("    * Writing image file: "+filename)
+    print("    * Writing image file ("+str(size)+"): "+filename)
     im.thumbnail(size, Image.ANTIALIAS)
     im.save(filename, "PNG")
   except IOError:
@@ -72,8 +91,12 @@ pngs = pngs.split("\n")
 pngs.sort()
 for f in pngs:
   if f != "":
-    print(f)
-    process_file(f)
+    if ("t_" in f):
+      print("  IGNORING: "+f)
+    else:
+      #if "hires" in f:
+      print("  "+f)
+      process_file(f)
 
 
 exit(0)
