@@ -85,18 +85,18 @@ if process_all_files:
 ##
 ## process files changed in the last commit
 ##
-print("\nFinding files changed in last git commit\n")
-pngs = os.popen("git log --name-only --pretty=oneline --full-index HEAD^^..HEAD | grep 'Images-HT/starwars'").read()
-pngs = pngs.split("\n")
-pngs.sort()
-for f in pngs:
-  if f != "":
-    if ("t_" in f):
-      print("  IGNORING: "+f)
-    else:
-      #if "hires" in f:
-      print("  "+f)
-      process_file(f)
+if not process_all_files:
+  print("\nFinding files changed in last git commit\n")
+  pngs = os.popen("git log --name-only --pretty=oneline --full-index HEAD^^..HEAD | grep 'Images-HT/starwars'").read()
+  pngs = pngs.split("\n")
+  pngs.sort()
+  for f in pngs:
+    if f != "":
+      if ("t_" in f):
+        print("  IGNORING: "+f)
+      else:
+        print("  "+f)
+        process_file(f)
 
 
 exit(0)
