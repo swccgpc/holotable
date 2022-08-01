@@ -30,14 +30,14 @@ MacOS Instructions for Uploading Card Images
 
 
 
-![github_open_pull_request](/Users/devon/code/holotable/docs/pix/github_open_pull_request.png)
+![github_open_pull_request](pix/github_open_pull_request.png)
 
-![sourcetree_add_uncommitted_changes](/Users/devon/code/holotable/docs/pix/sourcetree_add_uncommitted_changes.png)
+![sourcetree_add_uncommitted_changes](pix/sourcetree_add_uncommitted_changes.png)
 
-![sourcetree_commit](/Users/devon/code/holotable/docs/pix/sourcetree_commit.png)
+![sourcetree_commit](pix/sourcetree_commit.png)
 
-![sourcetree_confirm_add](/Users/devon/code/holotable/docs/pix/sourcetree_confirm_add.png)
+![sourcetree_confirm_add](pix/sourcetree_confirm_add.png)
 
-![sourcetree_push_to_repository](/Users/devon/code/holotable/docs/pix/sourcetree_push_to_repository.png)
+![sourcetree_push_to_repository](pix/sourcetree_push_to_repository.png)
 
-![sourcetree_push](/Users/devon/code/holotable/docs/pix/sourcetree_push.png)
+![sourcetree_push](pix/sourcetree_push.png)
