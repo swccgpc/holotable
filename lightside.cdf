@@ -1,4 +1,4 @@
-version 20220810
+version 20220811
 back reb20.gif
 
 [Admiral's Order]
@@ -2121,7 +2121,7 @@ card "/starwars/Premiere-Light/t_kessel" "•Kessel (0)\nLight Location - System [
 card "/starwars/Virtual13-Light/t_kessel" "•Kessel (V) (0)\nLight Location - System [U2]\nSet: Set 13\nIcons: Planet, Set 13\nParsec: 8\n\nText:\nLIGHT (1): For remainder of game, while you occupy Kessel, Force drain +1 there and Kessel Run may not be canceled.\n\nDARK (2): If you control, Kessel Run is prevented (canceled)."
 card "/starwars/JabbasPalace-Light/t_kiffex" "•Kiffex (0)\nLight Location - System [R]\nSet: Jabba's Palace\nIcons: Planet, Jabba's Palace\nParsec: 2\n\nText:\nLIGHT (2): If you occupy with exactly 2 starships, your total power here is +2 and Vul Tazaene anywhere is doubled.\n\nDARK (2): If you occupy with exactly 2 starships, your total power here is +2."
 card "/starwars/JabbasPalace-Light/t_kirdoiii" "•Kirdo III (0)\nLight Location - System [R]\nSet: Jabba's Palace\nIcons: Planet, Jabba's Palace\nParsec: 1\n\nText:\nLIGHT (1): If you occupy, once per turn, may search Reserve Deck and take any Desert, Kitonak, or Sandwhirl into hand; reshuffle.\n\nDARK (1): If you control, Force drain -1 here."
-card "/starwars/Virtual19-Light/t_lothallight" "•Lothal (LIGHT) (0)\nLight Location - System [U2]\nSet: Set 19\nIcons: Planet, Set 19\nParsec: 6\n\nText:\nLIGHT (2):  Ghost deploys -2 here. While Ghost piloted here, opponent's battle destiny draws are -1 here. DARK (1):  Unless Chimaera or Thrawn here, Force drain -1 here."
+card "/starwars/Virtual19-Light/t_lothal" "•Lothal (0)\nLight Location - System [U2]\nSet: Set 19\nIcons: Planet, Set 19\nParsec: 6\n\nText:\nLIGHT (2):  Ghost deploys -2 here. While Ghost piloted here, opponent's battle destiny draws are -1 here. DARK (1):  Unless Chimaera or Thrawn here, Force drain -1 here."
 card "/starwars/Virtual19-Light/t_malachor" "•Malachor (0)\nLight Location - System [U]\nSet: Set 19\nIcons: Planet, Set 19\nParsec: 6\n\nText:\nLIGHT (2):  While you control with a Phoenix Squadron character, Vader is power -2 and his weapon destiny draws are -1. DARK (2):  While you control, Ezra is power -2 and may not apply ability toward drawing battle destiny."
 card "/starwars/Coruscant-Light/t_malastare" "•Malastare (0)\nLight Location - System [U]\nSet: Coruscant\nIcons: Planet, Episode I, Coruscant\nParsec: 3\n\nText:\nLIGHT (2): If you have won a Podrace, Force drain +1 here.\n\nDARK (1): If you have lost a Podrace, you may not draw more than one battle destiny here."
 card "/starwars/Virtual19-Light/t_mandalore" "•Mandalore (0)\nLight Location - System [U]\nSet: Set 19\nIcons: Planet, Set 19\nParsec: 4\n\nText:\nLIGHT (2):  If your Mandalorian here, Force drain +1 here (+2 if armed with Darksaber). DARK (1):  If your character armed with Darksaber on table, opponent may not deploy (or Force drain) here."
