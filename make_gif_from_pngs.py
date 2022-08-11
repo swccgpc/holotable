@@ -5,6 +5,7 @@ from PIL import Image
 
 import os
 
+from time import sleep
 
 def process_file(f = "Images-HT/starwars/VirtualAlternateImage-Dark/hires/iamyourfather_ai.png"):
   with Image.open(f) as im:
@@ -12,8 +13,21 @@ def process_file(f = "Images-HT/starwars/VirtualAlternateImage-Dark/hires/iamyou
     print("    * size:",width,"x",height)
     gif_filename   = f.replace(".png", ".gif").replace("hires", "large")
     gif_t_filename = f.replace(".png", ".gif").replace("hires/", "t_").replace("large/", "t_")
-    print("    * gif_t: "+gif_t_filename)
-    print("    * gif..: "+gif_filename)
+    git_dir = gif_filename.replace(gif_filename.split("/")[-1], "")
+    git_t_dir = gif_t_filename.replace(gif_t_filename.split("/")[-1], "")
+
+    print("    * gif_t....: "+gif_t_filename)
+    print("    * gif......: "+gif_filename)
+    print("    * gif_t dir: "+git_t_dir)
+    print("    * gif dir..: "+git_dir)
+
+    if (not os.path.isdir(git_t_dir)):
+      print("    * gif_t dir does not exist... making")
+      os.mkdir(git_t_dir)
+
+    if (not os.path.isdir(git_dir)):
+      print("    * gif dir does not exist... making")
+      os.mkdir(git_dir)
 
     if height > width:
       print("    * tall - generate portrait card (745x1039)")
