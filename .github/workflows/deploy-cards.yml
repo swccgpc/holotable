@@ -28,6 +28,7 @@ jobs:
       - name: Checking working directory
         run: |
           echo
+          cd /home/runner/work/holotable/holotable
           echo "should be in /home/runner/work/holotable/holotable: [$(pwd)]"
           echo
           echo "/home/runner/work"
@@ -91,8 +92,8 @@ jobs:
 
       - name: Commit files
         run: |
-          git config --local user.email "devon+github-actions[bot]@hubner.org"
-          git config --local user.name "github-actions[bot]"
+          git config --global user.email "devon+github-actions[bot]@hubner.org"
+          git config --global user.name "github-actions[bot]"
           #echo '[url "git@github.com:"]' >> ~/.gitconfig
           #echo 'insteadOf = https://github.com/' >> ~/.gitconfig
           git add -A Images-HT/ ; true
@@ -110,8 +111,8 @@ jobs:
 
       - name: Commit updates to holotable_exe
         run: |
-          git config --local user.email "devon+github-actions[bot]@hubner.org"
-          git config --local user.name "github-actions[bot]"
+          git config --global user.email "devon+github-actions[bot]@hubner.org"
+          git config --global user.name "github-actions[bot]"
           echo
           echo
           echo "ls"
@@ -122,7 +123,7 @@ jobs:
           echo "rsync..: [$(which rsync)]"
           echo
           echo "should be in /home/runner/work/holotable/holotable: [$(pwd)]"
-          cd ..
+          cd /home/runner/work/holotable/
           echo "should be in /home/runner/work/holotable: [$(pwd)]"
           echo
           echo "${{ secrets.SWCCG_HOLOTABLE_EXE }}" > swccg-holotable-exe.pem
@@ -148,11 +149,13 @@ jobs:
           echo "ls -al .."
           echo ls -al .. | awk '{print "  "$0;}'
           echo
-          echo "../holotable/Images-HT/starwars"
-          echo ls -al ../holotable/Images-HT/starwars | awk '{print "  "$0;}'
+          echo "/home/runner/work/holotable/holotable/holotable/Images-HT/starwars"
+          echo ls -al /home/runner/work/holotable/holotable/Images-HT/starwars | awk '{print "  "$0;}'
           echo
           chmod +x ./update_cards.py
-          ./update_cards.py
+          python3 ./update_cards.py
+          git config --global user.email "devon+github-actions[bot]@hubner.org"
+          git config --global user.name "github-actions[bot]"
           git add -A .
           git commit -m "${TIMESTAMP}" -a
           git tag "${TIMESTAMP}"
