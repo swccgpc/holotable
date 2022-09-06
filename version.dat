@@ -1,7 +1,7 @@
 0.9.10
-Light CDF 20220821 lightside.cdf.bz2 SHA256:415aac9aa1c2faaed5cf2a2612862b9a9bfff53a2c19b74c9b94eba80722a8e9
-Dark CDF 20220821 darkside.cdf.bz2 SHA256:cfb7fe0b021e92f683e7f4bb9744d8ed5b31aadf4fbf83d4f51b2bde5982fd92
+Light CDF 20220903 lightside.cdf.bz2 SHA256:415aac9aa1c2faaed5cf2a2612862b9a9bfff53a2c19b74c9b94eba80722a8e9
+Dark CDF 20220903 darkside.cdf.bz2 SHA256:cfb7fe0b021e92f683e7f4bb9744d8ed5b31aadf4fbf83d4f51b2bde5982fd92
 Holotable Windows exe 0.9.10 holotable-0.9.10_update.exe SHA256:628460f5f430c6d092908366ee3fbe271d2d7c5486d9c6b9909c5e9dabd3c2ba
 Holotable Linux unpack 0.9.9 holotable-0.9.9_update_linux.tar.bz2 SHA256:415bea412fdbe426a9877ef7d3ad3dee2348adf0e10579dace35e80b788c7bdf
-images 20220830 Images-HT/listmd5.bz2 SHA256:aafc105ee4aa657e4cf9cd354c82b766e566a61fdcd8d84c52bf4064ff74b024
-imagelisturl 20220830 https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT/listmd5.bz2 SHA256:aafc105ee4aa657e4cf9cd354c82b766e566a61fdcd8d84c52bf4064ff74b024
+images 20220906 Images-HT/listmd5.bz2 SHA256:6d6e3bed313d9181743d1072b34bca6a1e2362b96d27465e9d9f7deaae63123f
+imagelisturl 20220906 https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT/listmd5.bz2 SHA256:6d6e3bed313d9181743d1072b34bca6a1e2362b96d27465e9d9f7deaae63123f

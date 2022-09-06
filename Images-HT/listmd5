@@ -1,4 +1,4 @@
-version 20220830
+version 20220906
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (gemp/vista-dn.gif) = a2ba13040814f5c170747cf5b0dd9e0d
 MD5 (gemp/carbonite.gif) = 8a741d7bbeae20ecc902763c00896d53
@@ -204,6 +204,7 @@ MD5 (starwars/VirtualAlternateImage-Light/large/anakinskywalkerpadawanlearner_ai
 MD5 (starwars/VirtualAlternateImage-Light/large/likemyfatherbeforeme_ai.gif) = 9fdbfc5341ebb460625a07046e40a138
 MD5 (starwars/VirtualAlternateImage-Light/large/finn_ai.gif) = 4015fdfd8edc130dfe55daa84aa1b8f2
 MD5 (starwars/VirtualAlternateImage-Light/large/poedameron_ai.gif) = 3f2b7648258bc8fc0349afc4c0bbad4a
+MD5 (starwars/VirtualAlternateImage-Light/large/jakkureysencampment_ai.gif) = a9342c041e443894b7956b477ddc63c2
 MD5 (starwars/VirtualAlternateImage-Light/large/anakinskywalkerjediknightholo_ai.gif) = 62a6153a28886375a90169222b2844af
 MD5 (starwars/VirtualAlternateImage-Light/large/generalkenobi_ai.gif) = da901cdb69dedebfc1e51fa355692a34
 MD5 (starwars/VirtualAlternateImage-Light/large/qira_ai.gif) = 10f6cacfb73473b6cf536a4bc5b51369
@@ -227,6 +228,7 @@ MD5 (starwars/VirtualAlternateImage-Light/large/captainherasyndulla_ai.gif) = 0a
 MD5 (starwars/VirtualAlternateImage-Light/large/kananjarrus_ai.gif) = 6b444086d666579ad433c1bf4716a55f
 MD5 (starwars/VirtualAlternateImage-Light/large/ahchtosaddle_ai.gif) = 5cca55582c9553c1dd77dd9f5634b47d
 MD5 (starwars/VirtualAlternateImage-Light/large/scarifdatavault_ai.gif) = b470a1b859f8646af224b53e6dfe5b41
+MD5 (starwars/VirtualAlternateImage-Light/large/leiasresistancetransport_ai.gif) = 8eae8dda36361ab31a6b314314eeac4b
 MD5 (starwars/VirtualAlternateImage-Light/large/bb8inblacksquadron1_ai.gif) = c4f73930f1d8e591464f08674f08e1e4
 MD5 (starwars/VirtualAlternateImage-Light/large/rogueone_ai.gif) = 6d20802ab9b2e6498ba675a80c69fc21
 MD5 (starwars/VirtualAlternateImage-Light/large/thefalconjunkyardgarbageback_ai.gif) = 32f96e4ad0e44a9a203ccad8c5c3c3b6
@@ -3294,6 +3296,7 @@ MD5 (starwars/VirtualAlternateImage-Dark/t_finalizer_ai.gif) = 39529f91a84c206bc
 MD5 (starwars/VirtualAlternateImage-Dark/t_admiraltrenchholo_ai.gif) = ba1fb6e8fb8d34c02162f058b53aae4d
 MD5 (starwars/VirtualAlternateImage-Dark/t_generalgrievous_ai.gif) = fcb8071eb104583ed2b9f039549543dd
 MD5 (starwars/VirtualAlternateImage-Dark/t_generalhux_ai.gif) = 8be7de833aa11c54185f7662bede165a
+MD5 (starwars/VirtualAlternateImage-Dark/t_chimaera_ai.gif) = a97a107b3ab0e9e86058f4f063c0ff8c
 MD5 (starwars/VirtualAlternateImage-Dark/t_b2battledroid_ai.gif) = 0ab47c17b37bdc338bc7cbdb875c7322
 MD5 (starwars/VirtualAlternateImage-Dark/t_conquest_ai.gif) = 2da3209dc0b62ca7c92ab7c5e9836d6c
 MD5 (starwars/VirtualAlternateImage-Dark/t_jedhajedhacity_ai.gif) = c6df8f8d94c802ac7d4c329257033dc2
@@ -3322,6 +3325,7 @@ MD5 (starwars/VirtualAlternateImage-Dark/large/admiraltrenchholo_ai.gif) = 147b2
 MD5 (starwars/VirtualAlternateImage-Dark/large/jedhajedhacity_ai.gif) = 0c989fc3f3a65cae538ea7e18abf396e
 MD5 (starwars/VirtualAlternateImage-Dark/large/alawlesstime_ai.gif) = 95ee7ccb187116bb6c824875e4a26098
 MD5 (starwars/VirtualAlternateImage-Dark/large/hothiceplains_ai.gif) = 75789a7715d72815ddb6f3763a6a4288
+MD5 (starwars/VirtualAlternateImage-Dark/large/chimaera_ai.gif) = b935f0b98edae6eae585051bff77c58e
 MD5 (starwars/VirtualAlternateImage-Dark/large/b2battledroid_ai.gif) = 4a0d95240f8eb849a1f99a06d86fed39
 MD5 (starwars/VirtualAlternateImage-Dark/large/agentkallus_ai.gif) = 487063c724c38bf4d276a3d89c8d5437
 MD5 (starwars/VirtualAlternateImage-Dark/large/captainphasma_ai.gif) = a91bb872a80f91f32d0010d40eb233c5
@@ -6484,7 +6488,7 @@ MD5 (starwars/DeathStarII-Dark/t_royalguard.gif) = 24bc2bfb615a057ca9202158e4669
 MD5 (starwars/DeathStarII-Dark/t_sullust.gif) = 2b8a205bb724870b8acc3fa980122977
 MD5 (starwars/DeathStarII-Dark/t_mynkyneugh.gif) = 0f4770f1c96f79745c281296d0f3720e
 MD5 (starwars/DeathStarII-Dark/t_emperorpalpatine.gif) = 2de93acf84ef6c651b09b52bbc7ac0f1
-MD5 (starwars/DeathStarII-Dark/t_captainjonus.gif) = 2ba54a951e6c6c3454b3ec52c2e49498
+MD5 (starwars/DeathStarII-Dark/t_captainjonus.gif) = 278b262132a678e080dddd29e5d95390
 MD5 (starwars/DeathStarII-Dark/large/sfsls72tiecannon.gif) = 54b93aab7840ef195dad78c8eabd7451
 MD5 (starwars/DeathStarII-Dark/large/scimitarsquadrontie.gif) = f80f971a385ff5477012587aae726b74
 MD5 (starwars/DeathStarII-Dark/large/admiralchiraneau.gif) = 02054bfee4f14012c4e0e7547ea9fc3c
@@ -6507,7 +6511,7 @@ MD5 (starwars/DeathStarII-Dark/large/lordvader.gif) = 39cb2674eddac0a002e6bd30a3
 MD5 (starwars/DeathStarII-Dark/large/battledeployment.gif) = d7189ea07c16c8e1c0e5155471fb7edf
 MD5 (starwars/DeathStarII-Dark/large/leavethemtome.gif) = 27f55d15bd0b1745167a5cba4f333868
 MD5 (starwars/DeathStarII-Dark/large/captaingodherdt.gif) = 45f06f609771631f301b43b72d1cdb2f
-MD5 (starwars/DeathStarII-Dark/large/captainjonus.gif) = 65251d8a7774798f0d06462f649f4690
+MD5 (starwars/DeathStarII-Dark/large/captainjonus.gif) = a9caddbcb1a4c75abe19de97829a2693
 MD5 (starwars/DeathStarII-Dark/large/desperatecounter.gif) = 6c304f84cf14decadde61e7834cc355a
 MD5 (starwars/DeathStarII-Dark/large/inconsequentiallosses.gif) = a82c3ad6c1a841ab7aaf002f9d0afd61
 MD5 (starwars/DeathStarII-Dark/large/scimitar2.gif) = e33257770a734b853f1faeec3ddfef95
