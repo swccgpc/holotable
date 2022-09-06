@@ -154,6 +154,11 @@ jobs:
           echo
           chmod +x ./update_cards.py
           python3 ./update_cards.py
+          ##
+          ## update_cards.py changes the directory to holotable/Images-HT/starwars
+          ## change back to the base level to make the commit
+          ##
+          cd /home/runner/work/holotable/holotable_exe
           git config --global user.email "devon+github-actions[bot]@hubner.org"
           git config --global user.name "github-actions[bot]"
           git add -A .
