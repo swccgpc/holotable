@@ -1,4 +1,4 @@
-version 20220906
+version 20220918
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (gemp/vista-dn.gif) = a2ba13040814f5c170747cf5b0dd9e0d
 MD5 (gemp/carbonite.gif) = 8a741d7bbeae20ecc902763c00896d53
@@ -115,7 +115,7 @@ MD5 (starwars/Tatooine-Dark/t_youswindledme.gif) = d1a4c8055323ce89434b4a3486cbd
 MD5 (starwars/Tatooine-Dark/t_quietlyobserving.gif) = b5fff5a6c067e0fecd313cf788c3112a
 MD5 (starwars/Tatooine-Dark/t_hisnameisanakin.gif) = fde4158167522df24c6902322c9f84df
 MD5 (starwars/Virtual19-Light/t_caradunewithheavyblasterrifle.gif) = c335d572cca817b7672468a8ec304bd2
-MD5 (starwars/Virtual19-Light/t_lothaljeditemple.gif) = 27aaf0d3e6e12d28e4fdbc5c12591dc0
+MD5 (starwars/Virtual19-Light/t_lothaljeditemple.gif) = c57a532aba49fe335114de2eb7fea9a7
 MD5 (starwars/Virtual19-Light/t_fennrau.gif) = c729681deb1dc91b7579ee425292079c
 MD5 (starwars/Virtual19-Light/t_weathervane.gif) = 007ca0c24f9fed274ccb343147fbadcb
 MD5 (starwars/Virtual19-Light/t_steadysteadybargainingtable.gif) = 312c99c6775d6af545f66968899da496
@@ -142,22 +142,22 @@ MD5 (starwars/Virtual19-Light/large/ezraheroofphoenixsquadron.gif) = 9db74ca74ca
 MD5 (starwars/Virtual19-Light/large/dexterjettster.gif) = c78e41df7fb959b43193f16ba8827bbc
 MD5 (starwars/Virtual19-Light/large/coruscantjeditemple.gif) = adbb0fe89b902a7e6b4aa918bc5f2223
 MD5 (starwars/Virtual19-Light/large/lothalcapitalcity.gif) = 176011bf62992c2e09d3ed496861ae0a
-MD5 (starwars/Virtual19-Light/large/phoenixsquadronoperations.gif) = f0f554379312eea107af6e1d89d05933
-MD5 (starwars/Virtual19-Light/large/liberationoflothal.gif) = 254cd180fce7abfeae50741adf7cc2de
+MD5 (starwars/Virtual19-Light/large/phoenixsquadronoperations.gif) = 3428191760f2e41f6458552b91e2dab1
+MD5 (starwars/Virtual19-Light/large/liberationoflothal.gif) = ba11239f88db4e27b2a3a510e1504252
 MD5 (starwars/Virtual19-Light/large/caradunewithheavyblasterrifle.gif) = 98ce0abc843cb84e8053718a9bf7802d
 MD5 (starwars/Virtual19-Light/large/mandalore.gif) = 3c67c01b1acb043b529fa53098f915c1
 MD5 (starwars/Virtual19-Light/large/artoo.gif) = 21769e820c53a8a298902afe1ad2eb26
 MD5 (starwars/Virtual19-Light/large/babufrik.gif) = b8b0f3c2cac53ad45da881409007874c
 MD5 (starwars/Virtual19-Light/large/weathervane.gif) = 14371caac08a2a06c66a66190c3ac5ba
-MD5 (starwars/Virtual19-Light/large/lothaljeditemple.gif) = 90fa573f38c1118196b05033b907c356
+MD5 (starwars/Virtual19-Light/large/lothaljeditemple.gif) = 13c2828e16fa424180914ce7f6f32c3f
 MD5 (starwars/Virtual19-Light/large/utinni.gif) = 28d5fe6dff00cdf0bf254fea9e4cd9a4
 MD5 (starwars/Virtual19-Light/large/thisisourrebellion.gif) = b3c81284030b31d1c6263e870e19da6a
 MD5 (starwars/Virtual19-Light/large/lothal.gif) = 820035542349df118f7443524a652c64
 MD5 (starwars/Virtual19-Light/large/malachor.gif) = 482f6f44ddc7003a335093e961e0721f
-MD5 (starwars/Virtual19-Light/t_liberationoflothal.gif) = 5217bde1099f321101ec3df6f7029f32
+MD5 (starwars/Virtual19-Light/t_liberationoflothal.gif) = 7c84af46ff7ffca2d114db01eae9db86
 MD5 (starwars/Virtual19-Light/t_artoo.gif) = 0029919df324bd6070e804d8a57ac6fe
 MD5 (starwars/Virtual19-Light/t_coruscantjeditemple.gif) = 364e781ad6701386dad310ee119df4df
-MD5 (starwars/Virtual19-Light/t_phoenixsquadronoperations.gif) = 8854acee6ece34cb65fcbf9c4250cb43
+MD5 (starwars/Virtual19-Light/t_phoenixsquadronoperations.gif) = 05086945f26ff55e555e184937d71d9c
 MD5 (starwars/VirtualAlternateImage-Light/t_bb8inblacksquadron1_ai.gif) = ee0699a3e89887c8726eac575e6a6dce
 MD5 (starwars/VirtualAlternateImage-Light/t_generalleiaorgana_ai.gif) = 9d3ea5bbb9bc6f762dfb1a0e270b121c
 MD5 (starwars/VirtualAlternateImage-Light/t_scariflandingpadnine_ai.gif) = ef26e66cd09541bdccbd8a0226f54717
