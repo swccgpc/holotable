@@ -7,56 +7,74 @@ import os
 
 from time import sleep
 
-def process_file(f = "Images-HT/starwars/VirtualAlternateImage-Dark/hires/iamyourfather_ai.png"):
-  with Image.open(f) as im:
-    width, height = im.size
-    print("    * size:",width,"x",height)
-    gif_filename   = f.replace(".png", ".gif").replace("hires", "large")
-    gif_t_filename = f.replace(".png", ".gif").replace("hires/", "t_").replace("large/", "t_")
-    git_dir = gif_filename.replace(gif_filename.split("/")[-1], "")
-    git_t_dir = gif_t_filename.replace(gif_t_filename.split("/")[-1], "")
+def process_file(f = "Images-HT/starwars/VirtualAlternateImage-Dark/hires/iamyourfather_ai.png", attempt=0):
+  if not os.path.isfile(f):
+    print("file is not a file?... Waiting a few seconds for the filesystem to settle.")
+    sleep(2)
 
-    print("    * gif_t....: "+gif_t_filename)
-    print("    * gif......: "+gif_filename)
-    print("    * gif_t dir: "+git_t_dir)
-    print("    * gif dir..: "+git_dir)
+  try:
+    with Image.open(f) as im:
+      width, height = im.size
+      print("    * size:",width,"x",height)
+      gif_filename   = f.replace(".png", ".gif").replace("hires", "large")
+      gif_t_filename = f.replace(".png", ".gif").replace("hires/", "t_").replace("large/", "t_")
+      git_dir = gif_filename.replace(gif_filename.split("/")[-1], "")
+      git_t_dir = gif_t_filename.replace(gif_t_filename.split("/")[-1], "")
 
-    if (not os.path.isdir(git_t_dir)):
-      print("    * gif_t dir does not exist... making")
-      os.mkdir(git_t_dir)
+      print("    * gif_t....: "+gif_t_filename)
+      print("    * gif......: "+gif_filename)
+      print("    * gif_t dir: "+git_t_dir)
+      print("    * gif dir..: "+git_dir)
 
-    if (not os.path.isdir(git_dir)):
-      print("    * gif dir does not exist... making")
-      os.mkdir(git_dir)
+      if (not os.path.isdir(git_t_dir)):
+        print("    * gif_t dir does not exist... making")
+        os.mkdir(git_t_dir)
 
-    if height > width:
-      print("    * tall - generate portrait card (745x1039)")
-      if ("large/" in f):
-        print("    ! NOT WRITING large gif. Target same as source.")
+      if (not os.path.isdir(git_dir)):
+        print("    * gif dir does not exist... making")
+        os.mkdir(git_dir)
+
+      if height > width:
+        print("    * tall - generate portrait card (745x1039)")
+        if ("large/" in f):
+          print("    ! NOT WRITING large gif. Target same as source.")
+        else:
+          write_gif(im, size_tall, gif_filename)
+          print(os.popen('git add '+gif_filename).read())
+        if ("t_" in f):
+          print("    ! NOT WRITING t_ gif. Source should never be a t_ file.")
+        elif ("t_" not in gif_t_filename):
+          print("    ! NOT WRITING t_ gif. Target file should have t_ in the name.")
+        else:
+          write_gif(im, size_tall_t, gif_t_filename)
+          print(os.popen('git add '+gif_t_filename).read())
+
       else:
-        write_gif(im, size_tall, gif_filename)
-        print(os.popen('git add '+gif_filename).read())
-      if ("t_" in f):
-        print("    ! NOT WRITING t_ gif. Source should never be a t_ file.")
-      elif ("t_" not in gif_t_filename):
-        print("    ! NOT WRITING t_ gif. Target file should have t_ in the name.")
-      else:
-        write_gif(im, size_tall_t, gif_t_filename)
-        print(os.popen('git add '+gif_t_filename).read())
+        print("    * wide - generate landscape card (1039x745)")
+        if ("large/" in f):
+          print("    ! NOT WRITING large gif. Target same as source.")
+        else:
+          write_gif(im, size_wide, gif_filename)
+          print(os.popen('git add '+gif_filename).read())
+        if ("t_" in f):
+          print("    ! NOT WRITING t_ gif. Source should never be a t_ file.")
+        else:
+          write_gif(im, size_wide_t, gif_t_filename)
+          print(os.popen('git add '+gif_t_filename).read())
 
-
+  except Exception as e:
+    print("Unable to Open File: {}".format(f))
+    print(e)
+    if attempt < 2:
+      print(" Waiting a few seconds for the filesystem to settle and trying again...")
+      sleep(2)
+      process_file(f, attempt+1)
     else:
-      print("    * wide - generate landscape card (1039x745)")
-      if ("large/" in f):
-        print("    ! NOT WRITING large gif. Target same as source.")
-      else:
-        write_gif(im, size_wide, gif_filename)
-        print(os.popen('git add '+gif_filename).read())
-      if ("t_" in f):
-        print("    ! NOT WRITING t_ gif. Source should never be a t_ file.")
-      else:
-        write_gif(im, size_wide_t, gif_t_filename)
-        print(os.popen('git add '+gif_t_filename).read())
+      print("bailing out...")
+      exit(1)
+
+
+
 
 def write_gif(im, size, filename):
   try:
