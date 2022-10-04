@@ -126,14 +126,15 @@ jobs:
           cd /home/runner/work/holotable/
           echo "should be in /home/runner/work/holotable: [$(pwd)]"
           echo
-          echo "${{ secrets.SWCCG_HOLOTABLE_EXE }}" > swccg-holotable-exe.pem
-          chmod 0600 swccg-holotable-exe.pem
-          echo "swccg-holotable-exe.pem info:"
-          ls -al swccg-holotable-exe.pem
+          export GIT_SSH_KEY_FILE="/home/runner/work/holotable/swccg-holotable-exe.pem"
+          echo "${{ secrets.SWCCG_HOLOTABLE_EXE }}" > ${GIT_SSH_KEY_FILE}
+          chmod 0600 ${GIT_SSH_KEY_FILE}
+          echo "${GIT_SSH_KEY_FILE} info:"
+          ls -al ${GIT_SSH_KEY_FILE}
           export TIMESTAMP=$(date +'%Y%m%d-%H%M')
           echo
-          echo "Setting GIT_SSH_COMMAND"
-          export GIT_SSH_COMMAND="ssh -i swccg-holotable-exe.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+          echo "Setting GIT_SSH_COMMAND" #/home/runner/work/holotable
+          export GIT_SSH_COMMAND="ssh -i ${GIT_SSH_KEY_FILE} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
           echo "git clone holotable_exe"
           git clone git@github.com:swccgpc/holotable_exe.git holotable_exe
           echo
