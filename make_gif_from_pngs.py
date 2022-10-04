@@ -89,7 +89,12 @@ def process_file(f = "Images-HT/starwars/VirtualAlternateImage-Dark/hires/iamyou
 def write_gif(im, size, filename):
   try:
     print("    * Writing image file ("+str(size)+"): "+filename)
-    im.thumbnail(size, Image.ANTIALIAS)
+    ##
+    ## ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01).
+    ## Use Resampling.LANCZOS instead
+    ##
+    #im.thumbnail(size, Image.ANTIALIAS)
+    im.thumbnail(size, Image.Resampling.LANCZOS)
     im.save(filename, "PNG")
   except IOError:
     print("    ! Unable to generate image !")
