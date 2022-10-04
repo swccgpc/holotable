@@ -2,12 +2,22 @@
 
 # pip3 install Pillow
 from PIL import Image
-
 import os
-
 from time import sleep
 
+from case_fixer import CaseFixer
+
+
 def process_file(f = "Images-HT/starwars/VirtualAlternateImage-Dark/hires/iamyourfather_ai.png", attempt=0):
+
+  if not os.path.isfile(f):
+    print("Could not find file {}. Was it renamed?".format(f))
+
+    cf = CaseFixer()
+    f = cf.generate_new_filename(f)
+
+    print("Trying again, but with: {}".format(f))
+
   if not os.path.isfile(f):
     print("file is not a file?... Waiting a few seconds for the filesystem to settle.")
     sleep(2)
