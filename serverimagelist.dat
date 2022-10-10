@@ -1,4 +1,4 @@
-version 20221008
+version 20221010
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (starwars/Virtual3-Dark/t_generalgrievous.gif) = 3d147e3d845e03b2c2751811a2968b1e
 MD5 (starwars/Virtual3-Dark/t_generalgrievoush.gif) = 3e3de9a9fca636ff0139ddb6f3a332ed
@@ -3903,8 +3903,8 @@ MD5 (starwars/OfficialTournamentSealedDeck-Dark/large/obsidiansquadrontie.gif) =
 MD5 (starwars/OfficialTournamentSealedDeck-Dark/large/tarkinsorders.gif) = a5c620e4a0a4942381862d2a6672d9be
 MD5 (starwars/OfficialTournamentSealedDeck-Dark/t_obsidiansquadrontie.gif) = 1d670d0a356ad2cf6b1dbd53bb964784
 MD5 (starwars/Playtesting-Light/t_lightCardBack.gif) = c55cd3d939b83a2a8555a73a6de54761
-MD5 (starwars/Playtesting-Light/t_lightcardback.gif) = 477cc2439277f2b4a63768fe5626afb0
-MD5 (starwars/Playtesting-Light/large/lightcardback.gif) = d26dbf14e3c323b463742b1b7ee63187
+MD5 (starwars/Playtesting-Light/t_lightcardback.gif) = badc579a18383255ca2d4f293517ac98
+MD5 (starwars/Playtesting-Light/large/lightcardback.gif) = d42b47ef4d4dc8c7d3f04c81777f0fc8
 MD5 (starwars/Playtesting-Light/large/lightCardBack.gif) = d42b47ef4d4dc8c7d3f04c81777f0fc8
 MD5 (starwars/Virtual4-Light/t_thegarbagewilldo.gif) = bfbce7998be53ba8a0f3dc018ad9e57c
 MD5 (starwars/Virtual4-Light/t_jakkustarshipgraveyard.gif) = b754078b1e777a3a451bf9b72bf93082
