@@ -1,4 +1,4 @@
-version 20230103
+version 20230105
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (gemp/vista-dn.gif) = a2ba13040814f5c170747cf5b0dd9e0d
 MD5 (gemp/vista-up-hover.gif) = b5a3c548139c6b931e07df3269e5e786
@@ -9501,7 +9501,7 @@ MD5 (starwars/Virtual13-Dark/large/wakeelmui.gif) = 1cef05b5ad0e5416dc841cdf2ed1
 MD5 (starwars/Virtual13-Dark/large/admiralozzel.gif) = e18f7f4cc3406cdb68a98703028d13b0
 MD5 (starwars/Virtual13-Dark/large/maul.gif) = 1bf8c7d5797ccb575393b1914c6adcb2
 MD5 (starwars/Virtual13-Dark/large/blacksunblaster.gif) = 53ddef3a146e83e9efecb6c6c90d55c4
-MD5 (starwars/Virtual13-Dark/large/firstlightdrydensstudy.gif) = 4dd281cb43dcd619ee8dbcb18899960f
+MD5 (starwars/Virtual13-Dark/large/firstlightdrydensstudy.gif) = 17a35f1dca1e5fcd0ac3c724f47e9e13
 MD5 (starwars/Virtual13-Dark/large/malachorsithtempleentrance.gif) = 7062aa1402e049ffbccbda0c72ac73c6
 MD5 (starwars/Virtual13-Dark/large/drydenvos.gif) = 6f8e056e4c08de1846debad902b20b3c
 MD5 (starwars/Virtual13-Dark/large/ninthsister.gif) = 838c75c0d92e4ad1dc4e2fd4696f6584
@@ -9536,7 +9536,7 @@ MD5 (starwars/Virtual13-Dark/t_drydenvos.gif) = 7c878a2c597db5277da0a468c2f73eed
 MD5 (starwars/Virtual13-Dark/t_ineveraskforanythingtwice.gif) = 897f95056c5bc41ebcaa449720aba0be
 MD5 (starwars/Virtual13-Dark/t_dathomirmaulschambers.gif) = 5865c7b17945c2e31a2ac5093d47e2ef
 MD5 (starwars/Virtual13-Dark/t_failureatthecave.gif) = 325e077f3fc2b5ce0653fae76af0e697
-MD5 (starwars/Virtual13-Dark/t_firstlightdrydensstudy.gif) = 64bb4224e44119aa63c94fb80a88d5b1
+MD5 (starwars/Virtual13-Dark/t_firstlightdrydensstudy.gif) = b52be102c39d868a5bba36f887b9eabf
 MD5 (starwars/Virtual13-Dark/t_id9probedroid.gif) = 8ecd9fb08cd0be7118b34c1506f34528
 MD5 (starwars/Virtual13-Dark/t_wakeelmui.gif) = cf923574f20122ae54ad864b54d75292
 MD5 (starwars/Virtual13-Dark/t_seventhsister.gif) = 3f5e224002da116344ed8b5f2ea3e806
