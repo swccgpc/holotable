@@ -1,4 +1,4 @@
-version 20230302
+version 20230305
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (reb20.gif) = 245395221755f0b3cf834e0d8a0954d4
 MD5 (reb.gif) = 7fa7a3219a7227dfa2b3d4ee4eb7ed8a
@@ -5666,6 +5666,10 @@ MD5 (starwars/Virtual20-Light/t_millenniumfalcon.gif) = 5eb85425f91870c089c44d14
 MD5 (starwars/Virtual20-Light/t_prisoner2187.gif) = 23a3e8829ad9bb4c17f950123f54b91a
 MD5 (starwars/Virtual20-Light/t_beskardeflection.gif) = 2e6cafe8e848522ca8780f49b8c4e3b9
 MD5 (starwars/Virtual20-Light/t_nabootheedpalacegenerator.gif) = 87aada34b1c373ef97c88cb5d1c33cd2
+MD5 (starwars/Virtual21-Dark/large/wellguarded.gif) = 4aba210b536db8ee39670dc78e0be836
+MD5 (starwars/Virtual21-Dark/large/coloneljendoninvaderspersonalshuttle.gif) = fd466c634535157d55cc8a2b37914abb
+MD5 (starwars/Virtual21-Dark/t_coloneljendoninvaderspersonalshuttle.gif) = 3b1a4f4162c09224bc23158ad93326f4
+MD5 (starwars/Virtual21-Dark/t_wellguarded.gif) = 45169af0a572ed7db374de3c018d5380
 MD5 (starwars/JabbasPalace-Light/t_ardonvaporcrell.gif) = 99b0c8fffdb65a2eca46bf8dde0cd9bc
 MD5 (starwars/JabbasPalace-Light/t_raycryjerd.gif) = 7b4b8362d3b240fce62dbe4b87621f82
 MD5 (starwars/JabbasPalace-Light/t_blasterdeflection.gif) = 595629fc60bbb41a2bec0743eba0bf43
@@ -6651,6 +6655,14 @@ MD5 (starwars/JediPack-Light/t_leia.gif) = 5602bab0279aadf9975d66d0eae5cc85
 MD5 (starwars/JediPack-Light/t_lukest16skyhopper.gif) = 1de421ee735170629c6356138eb2880e
 MD5 (starwars/JediPack-Light/t_han.gif) = 42b8ce23ed187fc7ca5d98f7519427e4
 MD5 (starwars/JediPack-Light/t_forluck.gif) = 9ab617c43cf76a7ec3078086e980f7b8
+MD5 (starwars/Virtual21-Light/t_icantbelievehesgone.gif) = a3f6e238e46eca129658262ffe3bb523
+MD5 (starwars/Virtual21-Light/large/icantbelievehesgone.gif) = 5fe089294a53496180ffe4ecc7950286
+MD5 (starwars/Virtual21-Light/large/strikeplanning.gif) = f971017b7c11aaa0c24aba79b3cbc381
+MD5 (starwars/Virtual21-Light/large/agift.gif) = a967b7a77511fd3bec897b1f4d9446d1
+MD5 (starwars/Virtual21-Light/large/hansmedal.gif) = d106348b284900251752022da651f584
+MD5 (starwars/Virtual21-Light/t_strikeplanning.gif) = 7afb22f3e6b4004e3c96af3b39187d70
+MD5 (starwars/Virtual21-Light/t_hansmedal.gif) = 1daf0674db4eec56d3a7767a26895e0b
+MD5 (starwars/Virtual21-Light/t_agift.gif) = ebb615b211f7441a3707dc2f600fc885
 MD5 (starwars/FirstAnthology-Light/t_commanderwedgeantilles.gif) = d6107a82e9cdf01b5cf75bd7dd3eaae8
 MD5 (starwars/FirstAnthology-Light/large/commanderwedgeantilles.gif) = 4da8f6cc3d03318f4652faf7da99dde3
 MD5 (starwars/FirstAnthology-Light/large/xwingassaultsquadron.gif) = 8ce3f4e8de7e02e26cf48ba915ef1218
