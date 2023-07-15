@@ -1,4 +1,4 @@
-version 20230714
+version 20230715
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (reb.gif) = 7fa7a3219a7227dfa2b3d4ee4eb7ed8a
 MD5 (legacy/VirtualBlock9-Light/t_generalbeliblis.gif) = c7e9b148f74ae95ced24054bc2752c15
@@ -4658,7 +4658,7 @@ MD5 (starwars/Virtual0-Dark/t_ds615.gif) = 123df4ec160239cd7b4777c994c327fa
 MD5 (starwars/Virtual0-Dark/t_establishcontrol.gif) = 425414138cf26ea9cd2f4a9cb9fbff8c
 MD5 (starwars/Virtual0-Dark/t_fanfarev.gif) = 68ba8b68d39444ae7bf5ddf2c22752e1
 MD5 (starwars/Virtual0-Dark/t_icantshakehim.gif) = 4c2df95f220d6920d95193a1dc6ec311
-MD5 (starwars/Virtual0-Dark/t_imperialdetention.gif) = 3f21cb5c0afc214987ff2d639eb01d4f
+MD5 (starwars/Virtual0-Dark/t_imperialdetention.gif) = 898d7e3345be26cc9a46713e180431c1
 MD5 (starwars/Virtual0-Dark/t_dengarwithblastercarbine.gif) = a469d0e3d37d63fcf2aa2df79495dcb3
 MD5 (starwars/Virtual0-Dark/t_somethingspecialplannedforthem.gif) = e4f8e8b3553758df34a6b21665a5e4e6
 MD5 (starwars/Virtual0-Dark/large/altercoruscant.gif) = cd3b8e88eba406c524683d871505bfc4
@@ -4686,7 +4686,7 @@ MD5 (starwars/Virtual0-Dark/large/darthvader.gif) = e863bc6b278a88c4137feda2b965
 MD5 (starwars/Virtual0-Dark/large/imperialjustice.gif) = 979755b619cd7dccf82ec9e60485b180
 MD5 (starwars/Virtual0-Dark/large/defensivefire.gif) = 722c39d3c94882c1852c488e6c6de727
 MD5 (starwars/Virtual0-Dark/large/cloudcitysecuritytower.gif) = c98621c98bde0e8cbdc4065a55bf12db
-MD5 (starwars/Virtual0-Dark/large/imperialdetention.gif) = 0b9e035573f8df30f4655245960657e5
+MD5 (starwars/Virtual0-Dark/large/imperialdetention.gif) = 0c7d2cfe5b18ca53069f861ee0a2cf69
 MD5 (starwars/Virtual0-Dark/large/probot.gif) = 2b9a34bbc10c51c7930f14f80e049c15
 MD5 (starwars/Virtual0-Dark/large/houndstooth.gif) = da0e48c089f5b945c498592426439e40
 MD5 (starwars/Virtual0-Dark/large/forcefield.gif) = 0dc1a1339d3da55e9e8a492f0ac0af2f
@@ -4813,14 +4813,14 @@ MD5 (starwars/ResetDS-Dark/t_deathstarsentry.gif) = f3af12e5138ca782d49e463d4524
 MD5 (starwars/ResetDS-Dark/t_fanfaretatooine.gif) = 68ba8b68d39444ae7bf5ddf2c22752e1
 MD5 (starwars/ResetDS-Dark/t_youcannothideforeverv.gif) = 8b80e7d2c70cd7102aa357e6f577d757
 MD5 (starwars/ResetDS-Dark/t_youcannothideforever.gif) = 9649b05327da48422ab31ef5f5301fed
-MD5 (starwars/ResetDS-Dark/t_imperialdetention.gif) = 3f21cb5c0afc214987ff2d639eb01d4f
+MD5 (starwars/ResetDS-Dark/t_imperialdetention.gif) = 898d7e3345be26cc9a46713e180431c1
 MD5 (starwars/ResetDS-Dark/t_firepower.gif) = dfdb699e50c997408ac0f83b36570b91
 MD5 (starwars/ResetDS-Dark/large/auselessgesture.gif) = c5b8d6860e2c2faea62e6a85f2193088
 MD5 (starwars/ResetDS-Dark/large/fanfaretatooine.gif) = 3f3cb77629165ae10dda7e65f4e1363d
 MD5 (starwars/ResetDS-Dark/large/voteofnoconfidence.gif) = 66c9d0374fcf6ff8214fdc6ad1e5cd55
 MD5 (starwars/ResetDS-Dark/large/ifindyourlackoffaithdisturbing.gif) = 63de88a3dcc93ac3f2151b7784d54401
 MD5 (starwars/ResetDS-Dark/large/firepower.gif) = fc70d29e1553d81bfd09d9f9fd137a8e
-MD5 (starwars/ResetDS-Dark/large/imperialdetention.gif) = 0b9e035573f8df30f4655245960657e5
+MD5 (starwars/ResetDS-Dark/large/imperialdetention.gif) = 0c7d2cfe5b18ca53069f861ee0a2cf69
 MD5 (starwars/ResetDS-Dark/large/fanfare.gif) = 18254eb1a8082b323c3a4db8d8fe3181
 MD5 (starwars/ResetDS-Dark/large/deathstarsentry.gif) = 1c052927688f2c39af73179538ca2930
 MD5 (starwars/ResetDS-Dark/large/youcannothideforeverv.gif) = 3e6e8a8eb8db238df9c597ab0201d5c2
