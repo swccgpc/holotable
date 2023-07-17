@@ -1,4 +1,4 @@
-version 20230708
+version 20230717
 back reb.gif
 
 [Admiral's Order]
@@ -1010,7 +1010,6 @@ card "/starwars/Premiere-Light/t_yerkamig" "*Yerka Mig (3)\nLight Effect - Utinn
 
 [Effect]
 
-card "/starwars/Virtual9-Light/t_abraveresistance" "*A Brave Resistance (5)\nLight Effect [U1]\nSet: Set 9\nIcons: Set 9\n\nLore: Blank.\n\nText: If Jakku on table, deploy on table. Your Force generation is +1 at Jakku battlegrounds you occupy. During your deploy phase, may place a Resistance character from hand on top of Used Pile to take a Resistance character of equal or lesser ability into hand from Reserve Deck; reshuffle. (Immune to Alter.)"
 card "/legacy/VirtualBlock8-Light/t_agoodblasteratyourside" "*A Good Blaster At Your Side (3)\nLight Effect [U1]\nSet: Virtual Block 8\n\nLore: 'I've been looking forward to this for a long time.' 'Yes, I'll bet you have.' Han abruptly ended his conversation with Greedo and flipped Wuher a credit to pay for the cleanup.\n\nText: Deploy on table. Non-lightsaber weapons carried by your non-Jedi characters may not be stolen. During your control phase, opponent loses 1 Force for each battleground site you control with a non-[Permanent Weapon] blaster present. Rebel Artillery is a Lost interrupt. (Immune to Alter.)"
 card "/starwars/Virtual0-Light/t_agoodblasteratyourside" "*A Good Blaster At Your Side (3)\nLight Effect [U1]\nSet: Set 0\nIcons: Set 0\n\nLore: 'I've been looking forward to this for a long time.' 'Yes, I'll bet you have.' Han abruptly ended his conversation with Greedo and flipped Wuher a credit to pay for the cleanup.\n\nText: Deploy on table. Non-lightsaber weapons carried by your non-Jedi characters may not be stolen. During your control phase, opponent loses 1 Force for each battleground site you control with a non-[Permanent Weapon] blaster present. Rebel Artillery is a Lost interrupt. (Immune to Alter.)"
 card "/starwars/Virtual18-Light/t_agoodblasteratyoursiderestricteddeployment" "*A Good Blaster At Your Side & *Restricted Deployment (3)\nLight Effect [U1]\nSet: Set 18\nIcons: Set 18\n\nText: Deploy on table. Non-lightsaber weapons carried by your non-Jedi characters may not be stolen. During your control phase, if you control a battleground site with a non-unique, non-[Permanent Weapon] blaster present, opponent loses 1 Force. Rebel Artillery is a Lost Interrupt. During your deploy phase, may deploy a blaster from Reserve Deck; reshuffle (or use 2 Force to deploy a non-unique blaster from Lost Pile) on your character at a Death Star site. May not be canceled. [Immune to Alter.]"
