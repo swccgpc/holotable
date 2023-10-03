@@ -1,4 +1,4 @@
-version 20231002
+version 20231003
 back reb.gif
 
 [Admiral's Order]
@@ -2020,7 +2020,7 @@ card "/legacy/VirtualBlock6-Light/t_hothmainpowergenerators" "*Hoth: Main Power 
 card "/starwars/Virtual10-Light/t_hothmainpowergenerators" "*Hoth: Main Power Generators (1st Marker) (V) (0)\nLight Location - Site [U2]\nSet: Set 10\nIcons: Hoth, Exterior, Planet, Set 10\n\nText:\nLIGHT (2): 'Hoth Energy Shield Rules' in effect. Your artillery weapons here are powered.\n\nDARK (0): Your movement to or from here requires +1 Force. If 'blown away,' Light Side loses 8 Force."
 card "/starwars/Hoth-Light/t_hothnorthridge" "*Hoth: North Ridge (4th Marker) (0)\nLight Location - Site [C2]\nSet: Hoth\nIcons: Exterior, Planet, Hoth\n\nText:\nLIGHT (1): This site does not count when calculating Epic Events.\n\nDARK (1): This site does not count when calculating Epic Events."
 card "/starwars/Hoth-Light/t_hothsnowtrench" "*Hoth: Snow Trench (2nd Marker) (0)\nLight Location - Site [C2]\nSet: Hoth\nIcons: Exterior, Planet, Hoth\n\nText:\nLIGHT (1): Add 1 to each of your weapon destiny draws here.\n\nDARK (1): If you control, Force generation +1 for you here."
-card "/starwars/Virtual22-Light/t_hothsnowtrench" "*Hoth: Snow Trench (V) (0)\nLight Location - Site [C2]\nSet: Set 22\nIcons: Exterior, Planet, Hoth, Set 22\n\nText:\nLIGHT (2):  Your artillery weapons deploy -2 here. Once per game, may deploy an artillery weapon here from Reserve Deck; reshuffle. DARK (2):  Your deploy costs may not be modified here."
+card "/starwars/Virtual22-Light/t_hothsnowtrench" "*Hoth: Snow Trench (2nd Marker) (V) (0)\nLight Location - Site [C2]\nSet: Set 22\nIcons: Exterior, Planet, Hoth, Set 22\n\nText:\nLIGHT (2):  Your artillery weapons deploy -2 here. Once per game, may deploy an artillery weapon here from Reserve Deck; reshuffle. DARK (2):  Your deploy costs may not be modified here."
 card "/starwars/JabbasPalaceSealedDeck-Light/t_jabbaspalaceantechamber" "*Jabba's Palace: Antechamber (0)\nLight Location - Site [PM]\nSet: Jabba's Palace Sealed Deck\nIcons: Interior, Planet, Premium\n\nText:\nLIGHT (2): Creatures cannot attack here. While no Rebels present, your total power here is +2.\n\nDARK (1): Creatures cannot attack here. Force drain -1 here."
 card "/starwars/JabbasPalace-Light/t_jabbaspalaceaudiencechamber" "*Jabba's Palace: Audience Chamber (0)\nLight Location - Site [U]\nSet: Jabba's Palace\nIcons: Interior, Planet, Jabba's Palace\n\nText:\nLIGHT (2): If you control, Scum And Villainy is canceled. May deploy Bo Shuda from Reserve Deck; reshuffle.\n\nDARK (1): Your alien leaders here are immune to attrition."
 card "/starwars/JabbasPalace-Light/t_jabbaspalaceentrancecavern" "*Jabba's Palace: Entrance Cavern (0)\nLight Location - Site [U]\nSet: Jabba's Palace\nIcons: Interior, Exterior, Planet, Jabba's Palace\n\nText:\nLIGHT (1): If you control, Force drain +1 here.\n\nDARK (1): Gamorrean Guards are power and forfeit +1 here."
