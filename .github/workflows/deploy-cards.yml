@@ -19,7 +19,9 @@ jobs:
 
     steps:
       ## https://github.com/actions/checkout
-      - uses: actions/checkout@v2
+      ## Both actions/checkout@v2 and actions/setup-node@v1 support only up to Node.js v12.
+      ## actions/setup-node@v3 supports Node.js 18
+      - uses: actions/checkout@v4
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
