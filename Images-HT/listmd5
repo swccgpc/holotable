@@ -1,4 +1,4 @@
-version 20240318
+version 20240325
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (starwars/Endor-Dark/t_freeze.gif) = bafd4ced07b6d60eeedb3c59b17890ba
 MD5 (starwars/Endor-Dark/t_corporalavarik.gif) = 24dea13b5432f370ba12c194027269ae
@@ -1228,8 +1228,8 @@ MD5 (starwars/CloudCity-Dark/t_cloudcitysabacc.gif) = e4fa5424dffcfab922518ed523
 MD5 (starwars/CloudCity-Dark/t_tibannagasminer.gif) = 15655d1ee1bfc0275930fcd06abfde05
 MD5 (starwars/FirstAnthology-Light/t_xwingassaultsquadron.gif) = 5ae59c66848bfd567b1b98631891ef15
 MD5 (starwars/FirstAnthology-Light/t_hitandrun.gif) = 116ee4d08888cf863707a8649f34453c
-MD5 (starwars/FirstAnthology-Light/t_commanderwedgeantilles.gif) = d6107a82e9cdf01b5cf75bd7dd3eaae8
-MD5 (starwars/FirstAnthology-Light/large/commanderwedgeantilles.gif) = 4da8f6cc3d03318f4652faf7da99dde3
+MD5 (starwars/FirstAnthology-Light/t_commanderwedgeantilles.gif) = bacaed0bbd102ce1dfe1b05d5a8c33ac
+MD5 (starwars/FirstAnthology-Light/large/commanderwedgeantilles.gif) = ef2e6c190a45dd55e066e6fedc7cb8ee
 MD5 (starwars/FirstAnthology-Light/large/hitandrun.gif) = a578a985cdd0514e9aea6f37a305d245
 MD5 (starwars/FirstAnthology-Light/large/xwingassaultsquadron.gif) = 8ce3f4e8de7e02e26cf48ba915ef1218
 MD5 (starwars/DemoDeck-Light/t_cityintheclouds.gif) = 57304a123a0dc8c7cd74cd60e62853d0
@@ -3867,11 +3867,11 @@ MD5 (starwars/Virtual9-Dark/large/xizorspalacesewer.gif) = c40318bd436e3b9be0582
 MD5 (starwars/Virtual9-Dark/large/vanee.gif) = 0458280d69dca959c010dec47ed2e96f
 MD5 (starwars/Virtual9-Dark/large/firstorderspecialforcestie.gif) = 6ad845ceda03390f6e3f6a65fdffcff8
 MD5 (starwars/Virtual9-Dark/t_chiefbast.gif) = 3e838620c755b6e9a1cbf718ca3ffd77
-MD5 (starwars/FirstAnthology-Dark/t_bobafett.gif) = db6e001ea881c350e567d5aed26ac846
+MD5 (starwars/FirstAnthology-Dark/t_bobafett.gif) = f49f9674a4c522344b8b2deb6877c356
 MD5 (starwars/FirstAnthology-Dark/t_jabbasinfluence.gif) = a4380db3317c0cd30db80e774600c31b
 MD5 (starwars/FirstAnthology-Dark/large/deathstarassaultsquadron.gif) = b8b211d49412ce5a74aaa2fa6e4429f9
 MD5 (starwars/FirstAnthology-Dark/large/jabbasinfluence.gif) = 32734df8dbada20f5ccda3c29161e43d
-MD5 (starwars/FirstAnthology-Dark/large/bobafett.gif) = 9f56e0bac8fa826ccf2f532a1287a868
+MD5 (starwars/FirstAnthology-Dark/large/bobafett.gif) = 376efc194ec0469620b50b0b749d6bc4
 MD5 (starwars/FirstAnthology-Dark/t_deathstarassaultsquadron.gif) = 59578baa295b5102fa0c6b0e2d106c4e
 MD5 (starwars/OfficialTournamentSealedDeck-Light/t_goldsquadronywing.gif) = 363ec0507621d5fbc523ecbc5b6b4419
 MD5 (starwars/OfficialTournamentSealedDeck-Light/t_itsahit.gif) = 21cb35189b20fd5da4ada97eea72d21a
