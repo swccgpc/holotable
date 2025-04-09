@@ -1,4 +1,4 @@
-version 20250228
+version 20250409
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (imp.gif) = 17e7ec1cede9f979603de547ce07fae4
 MD5 (reb20.gif) = 245395221755f0b3cf834e0d8a0954d4
@@ -4868,6 +4868,10 @@ MD5 (starwars/Virtual8-Light/t_cc2237oddball.gif) = a3adfd10b3f21d231db23a240613
 MD5 (starwars/Virtual8-Light/t_redsquadron6.gif) = e32ced315271e8c565c2c982949f0acc
 MD5 (starwars/Virtual8-Light/t_endorewokvillage.gif) = 6b0413a1b9a6fd857c33c8e8dbad341f
 MD5 (starwars/Virtual8-Light/t_majorharterkalonia.gif) = 0df209eccf9589e14405f5f28f1ebe76
+MD5 (starwars/Virtual25-Light/wuta.gif) = 3408ac3b9a763a3f27724c124cd4f6df
+MD5 (starwars/Virtual25-Light/idontneedtheirscumeither.gif) = 2df490d4f5f417f769654c2fbfaa3c67
+MD5 (starwars/Virtual25-Light/mysisterhasit.gif) = 1862944053bf189e39802a0db14a7cca
+MD5 (starwars/Virtual25-Light/criticalerrorrevealed.gif) = 48c05fe018eba60abcf488cc7700b1b7
 MD5 (starwars/Premiere-Light/t_cz3.gif) = 90bb9451d5423aa17f05bb3f74e27606
 MD5 (starwars/Premiere-Light/t_thisisallyourfault.gif) = 2cc87a119f2ebfbf7c2355f3e10270f8
 MD5 (starwars/Premiere-Light/t_escapepod.gif) = 199b31e2b33bc79727e6e289a4cc7248
@@ -8246,6 +8250,20 @@ MD5 (starwars/Virtual19-Light/t_malachor.gif) = 2621fc96162faa810ac40f1dea2472c4
 MD5 (starwars/Virtual19-Light/t_utinni.gif) = f090e3275251d1ebd95dcc46b6bc7a76
 MD5 (starwars/Virtual19-Light/t_artoo.gif) = a8c3f015a415504caf047136379e8aa0
 MD5 (starwars/Virtual19-Light/t_coruscantjeditemple.gif) = 364e781ad6701386dad310ee119df4df
+MD5 (starwars/Virtual25-Dark/t_bibfortuna.gif) = 36a9a6eaad9f8cbc0b781cf06ad86e79
+MD5 (starwars/Virtual25-Dark/t_silunch.gif) = c1ddf2c0b14a8d34b0243e899abd13b4
+MD5 (starwars/Virtual25-Dark/t_comehereyoubigcowardse.gif) = 7ebfcdd2b2504dd3004513fafe325e44
+MD5 (starwars/Virtual25-Dark/large/bibfortuna.gif) = 276a27ecb9d54a740ed6fbff879ceaff
+MD5 (starwars/Virtual25-Dark/large/nobargain.gif) = a3ccf94cbe9efc9584d0c4d27ec068d6
+MD5 (starwars/Virtual25-Dark/large/silunch.gif) = ab5f0fd526f380989dd9961f8084067d
+MD5 (starwars/Virtual25-Dark/large/comehereyoubigcowardse.gif) = 2bbbdd3f0973cb89f076ce0e9eb349db
+MD5 (starwars/Virtual25-Dark/large/comehereyoubigcowardref3.gif) = a9b4a579a2c6648921eba5c83684ad92
+MD5 (starwars/Virtual25-Dark/large/blastpoints.gif) = e544f05cec610ed80e72d32ba6eb8611
+MD5 (starwars/Virtual25-Dark/large/stranded.gif) = e2da467ce5a204869d110969221518ed
+MD5 (starwars/Virtual25-Dark/t_blastpoints.gif) = 3f5f57781ec7bc4495ae00bb7da4752b
+MD5 (starwars/Virtual25-Dark/t_comehereyoubigcowardref3.gif) = e7505487236c87b84fce09dc5f5fdb53
+MD5 (starwars/Virtual25-Dark/t_stranded.gif) = e68c37a8757f8e82af929e06afe39f3a
+MD5 (starwars/Virtual25-Dark/t_nobargain.gif) = a57aea15f7b143cb4bcbe716bd29b543
 MD5 (starwars/Premiere-Dark/t_colonelwullfyularen.gif) = 25e2e3a57801da173d7a90215fe52282
 MD5 (starwars/Premiere-Dark/t_darkhours.gif) = 5825b175179d218820d3cee3a09da9cb
 MD5 (starwars/Premiere-Dark/t_linv8m.gif) = 71280a3ec76e7528cdaa2ce1c390096e
