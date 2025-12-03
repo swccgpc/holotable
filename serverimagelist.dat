@@ -1,4 +1,4 @@
-version 20251202
+version 20251203
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (imp.gif) = 17e7ec1cede9f979603de547ce07fae4
 MD5 (reb20.gif) = 245395221755f0b3cf834e0d8a0954d4
@@ -5349,6 +5349,7 @@ MD5 (starwars/Virtual26-Dark/t_marajadetheemperorshand.gif) = cd1a873fd01549454e
 MD5 (starwars/Virtual26-Dark/t_coruscant.gif) = 35e8bf46e82fd39b454d1a40f67f41fc
 MD5 (starwars/Virtual26-Dark/t_salaciouscrumb.gif) = cb48e2788673a041577a6b3cb7d1da15
 MD5 (starwars/Virtual26-Dark/t_prayidontalteritanyfurther.gif) = 4b4562f53dc56ff81f5cf740680f342f
+MD5 (starwars/Virtual26-Dark/t_welcomehomelordtyranus.gif) = 75a2a4f98e0f93f105a40c016a417857
 MD5 (starwars/Virtual26-Dark/t_garindanimperialspy.gif) = d4ce600e7198fe1adad68c39e874e3c1
 MD5 (starwars/Virtual26-Dark/t_informationexchange.gif) = 031aa50b72d43a05f3a23351e919cfba
 MD5 (starwars/Virtual26-Dark/t_guri.gif) = 46a6cc8f5a0942d5d14a0351ef2b3288
@@ -5356,6 +5357,7 @@ MD5 (starwars/Virtual26-Dark/t_thisdealisgettingworseallthetime.gif) = f7c7f48da
 MD5 (starwars/Virtual26-Dark/t_cloudcitydiningroom.gif) = bb97ebb32e71aff9742fd1afd1c4a0ca
 MD5 (starwars/Virtual26-Dark/large/marajadetheemperorshand.gif) = 54cbcb6a9d03e5a1f11c96ab91fcedbc
 MD5 (starwars/Virtual26-Dark/large/welcmehomelordtyranus.gif) = 61d42d228f62fe379329dfac4185c959
+MD5 (starwars/Virtual26-Dark/large/welcomehomelordtyranus.gif) = 61d42d228f62fe379329dfac4185c959
 MD5 (starwars/Virtual26-Dark/large/garindanimperialspy.gif) = 451b36ce87a0a46de5ffcfb0ade5d521
 MD5 (starwars/Virtual26-Dark/large/coruscant.gif) = 231c5fca38b87abe8f7bd5af8a3d4616
 MD5 (starwars/Virtual26-Dark/large/ommniboxitsworse.gif) = 6e4ff37d39263e62c4a91bd28a277b31
