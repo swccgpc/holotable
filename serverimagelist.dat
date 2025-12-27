@@ -1,4 +1,4 @@
-version 20251225
+version 20251227
 urlpath https://raw.githubusercontent.com/swccgpc/holotable/master/Images-HT
 MD5 (imp.gif) = 17e7ec1cede9f979603de547ce07fae4
 MD5 (reb20.gif) = 245395221755f0b3cf834e0d8a0954d4
@@ -9317,8 +9317,8 @@ MD5 (starwars/Virtual10-Dark/t_black3.gif) = 088d1cf434e5721fdfb60c01cfc2c326
 MD5 (starwars/Virtual10-Dark/t_mustafards.gif) = bb3b4e5952df144a26942182af2d7d05
 MD5 (starwars/Virtual26-Light/t_somethingaboutthisboy.gif) = c66c19c7ba5fab1c5341fcc64e30fbbb
 MD5 (starwars/Virtual26-Light/t_kashyyykchewieshut.gif) = 610f95750d173a206280468416cf18e2
-MD5 (starwars/Virtual26-Light/t_kelnacca.gif) = fe75e6f9401ce13dbdaa9e68db28c217
-MD5 (starwars/Virtual26-Light/t_gatheralliesandtrain.gif) = 9409947b3186ef125ff16bfa6e348594
+MD5 (starwars/Virtual26-Light/t_kelnacca.gif) = e674300869fb1e1b5d53bb03ff3c8523
+MD5 (starwars/Virtual26-Light/t_gatheralliesandtrain.gif) = 5ce300e16a71bc47da1e7d7c34557c96
 MD5 (starwars/Virtual26-Light/t_mapuzominingvillage.gif) = afab2aac7428c258a2dc993a202c42e6
 MD5 (starwars/Virtual26-Light/t_jabiimstarshiphangar.gif) = de285a19c985ab639a37ec7ac7bfb131
 MD5 (starwars/Virtual26-Light/t_launchingtheassault.gif) = b5320aebf49e9b4d0bcba01028225006
@@ -9331,18 +9331,18 @@ MD5 (starwars/Virtual26-Light/large/launchingtheassault.gif) = 15ed1d52ae9ff394c
 MD5 (starwars/Virtual26-Light/large/somethingaboutthisboy.gif) = 4f362426ba65d4fcc4758ad817d16b7b
 MD5 (starwars/Virtual26-Light/large/mapuzosafehouse.gif) = 58994456b71e6c6ca1a54c6f4cabbb1e
 MD5 (starwars/Virtual26-Light/large/jabiimpathoperationscenter.gif) = b4d76ae88639ea1fa9b2b5910111eb6b
-MD5 (starwars/Virtual26-Light/large/kelnacca.gif) = c53416fc9beafd962b46c0a4e8b740ec
+MD5 (starwars/Virtual26-Light/large/kelnacca.gif) = c8b571987182631dfe30f77fa4efec11
 MD5 (starwars/Virtual26-Light/large/obiwankenobijediinexile.gif) = 419fb09dffa0eb9a3c0ba2bb52d03f82
-MD5 (starwars/Virtual26-Light/large/gatheralliesandtrain.gif) = beb376af386e29b559f36b9ca52c086a
-MD5 (starwars/Virtual26-Light/large/thehiddenpath.gif) = 17ebeacb6649929801f5963b6ae55663
+MD5 (starwars/Virtual26-Light/large/gatheralliesandtrain.gif) = 056ef6ebd108cba40078401bb65c598f
+MD5 (starwars/Virtual26-Light/large/thehiddenpath.gif) = 5aaa0e4709fd0159c830f8a09431481c
 MD5 (starwars/Virtual26-Light/large/mapuzominingvillage.gif) = 69ba5495e2b2133d9cc2591d1be74b01
 MD5 (starwars/Virtual26-Light/large/pelimotto.gif) = 7cdbbfbfa952beecf6847f56b24b6e69
 MD5 (starwars/Virtual26-Light/large/kashyyykchewieshut.gif) = aedafeb1f1672fd1e6dc0ad13462079a
-MD5 (starwars/Virtual26-Light/large/fallenorder.gif) = 20febca2588578efec9ad1b4ea34e812
+MD5 (starwars/Virtual26-Light/large/fallenorder.gif) = 006458e5ea126dc970664dd39636af06
 MD5 (starwars/Virtual26-Light/large/jabiimstarshiphangar.gif) = 1570cf1f227c1c3506b72dcb4ee3678f
 MD5 (starwars/Virtual26-Light/large/mapuzoundergroundcorridor.gif) = bb939b73282364be0c3a937afe16baed
-MD5 (starwars/Virtual26-Light/t_thehiddenpath.gif) = 1b882d187f68c8d0b0e2016d8df07850
-MD5 (starwars/Virtual26-Light/t_fallenorder.gif) = dfdb1e641f71e38df3c1ff836c7ffb88
+MD5 (starwars/Virtual26-Light/t_thehiddenpath.gif) = 8cf127614d369f1f1b2a083be3eeae2c
+MD5 (starwars/Virtual26-Light/t_fallenorder.gif) = 5bb178759cb96da82eea2081ae574ffe
 MD5 (starwars/Virtual26-Light/t_jabiimpathoperationscenter.gif) = 06489c52629238af1a63dd633ebfb37a
 MD5 (starwars/Virtual26-Light/t_kelleranbeq.gif) = 860a3e0b4d5cc5c88c7192eeaee34d2d
 MD5 (starwars/Virtual26-Light/t_mapuzosafehouse.gif) = 307aa2c38f2548d146a8b8d0763292c6
